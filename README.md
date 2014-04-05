@@ -9,7 +9,7 @@ Intro
 
 - Intro G
 - Gains de productivité G
-- Collaboration N
+- Collaboration N --
 	cf. fourmis
 - Entreprise ou projet N
 - Taille de l'entreprise et du projet G
