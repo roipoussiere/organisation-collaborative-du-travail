@@ -3,7 +3,7 @@ Organisation collaborative du travail
 
 *Plan du dossier*
 
-[Introduction](0. Introduction)
+[Introduction](0. Introduction.md)
 -------------------------------
 
 1. [Enjeux](1. Enjeux.md)
