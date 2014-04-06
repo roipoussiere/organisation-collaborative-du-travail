@@ -1,6 +1,8 @@
 Organisation collaborative du travail
 =====================================
 
+*Plan du dossier*
+
 Introduction
 ------------
 
