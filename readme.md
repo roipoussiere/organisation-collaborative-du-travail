@@ -3,11 +3,11 @@ Organisation collaborative du travail
 
 *Plan du dossier*
 
-Introduction
-------------
+[Introduction](0. Introduction)
+-------------------------------
 
-1. Enjeux
----------
+1. [Enjeux](1. Enjeux.md)
+-------------------------
 
 - Intro *Victor*
 - Gains de productivité *Victor*
@@ -16,8 +16,8 @@ Introduction
 - Taille de l'entreprise et du projet *Victor*
 - Conclu *Victor*
 
-2. Méthodes
------------
+2. [Méthodes](2. Méthodes.md)
+-----------------------------
 
 - Introduction *Victor*
 - Méthodes de travail dans l'informatique *Nathanaël*
@@ -28,8 +28,8 @@ Introduction
 	- Préférences au sein de l'entreprise
 - Conclusion *Nathanaël*
  
-3. Outils
----------
+3. [Outils](3. Outils.md)
+-------------------------
 
 - Introduction *Victor*
 - ERP *Nathanaël*
@@ -39,5 +39,12 @@ Introduction
 	- Outils de controle de qualité du code
 - Conclusion *Victor*
 
-Conclusion
-----------
+[Conclusion](Conclusion.md)
+---------------------------
+
+Bibliographie
+-------------
+
+- Livre Méthodes de W collaboratif
+- Livre Méthodes Agiles (à emprunter)
+- The Git book
