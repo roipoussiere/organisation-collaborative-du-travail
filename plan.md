@@ -1,8 +1,8 @@
 Organisation collaborative du travail
 =====================================
 
-Intro
------
+Introduction
+------------
 
 1. Enjeux
 ---------
@@ -10,7 +10,6 @@ Intro
 - Intro G
 - Gains de productivité G
 - Collaboration N --
-	cf. fourmis
 - Entreprise ou projet N
 - Taille de l'entreprise et du projet G
 - Conclu G
@@ -19,7 +18,7 @@ Intro
 -----------
 
 - Intro N
-- Méthodes de travail dans l'informatique N
+- Méthodes de travail dans l'informatique N --
 	- Cycle en V
 	- Méthodes Agiles
 - Critères de choix G
@@ -38,5 +37,5 @@ Intro
 	- Outils de controle de qualité du code
 - Conclu G
 
-Conclu
-------
+Conclusion
+----------
