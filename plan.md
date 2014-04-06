@@ -7,35 +7,35 @@ Introduction
 1. Enjeux
 ---------
 
-- Intro G
-- Gains de productivité G
-- Collaboration N --
-- Entreprise ou projet N
-- Taille de l'entreprise et du projet G
-- Conclu G
+- Intro *Victor*
+- Gains de productivité *Victor*
+- Collaboration *Nathanaël*
+- Entreprise ou projet *Nathanaël*
+- Taille de l'entreprise et du projet *Victor*
+- Conclu *Victor*
 
 2. Méthodes
 -----------
 
-- Intro N
-- Méthodes de travail dans l'informatique N --
-	- Cycle en V
-	- Méthodes Agiles
-- Critères de choix G
+- Introduction *Victor*
+- Méthodes de travail dans l'informatique *Nathanaël*
+	- Le cycle en V
+	- Les méthodes agiles
+- Critères de choix *Victor*
 	- Rapport avec le client
 	- Préférences au sein de l'entreprise
-- Conclu N
+- Conclusion *Nathanaël*
  
 3. Outils
 ---------
 
-- Intro G
-- ERP N --
-- Outils informatiques G
+- Introduction *Victor*
+- ERP *Nathanaël*
+- Outils informatiques *Victor*
 	- Systèmes de Contrôle de Versions
 	- Rapport de bugs et gestion des feuilles de route 
 	- Outils de controle de qualité du code
-- Conclu G
+- Conclusion *Victor*
 
 Conclusion
 ----------
