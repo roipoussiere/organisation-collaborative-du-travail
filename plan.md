@@ -30,7 +30,7 @@ Introduction
 ---------
 
 - Intro G
-- ERP N
+- ERP N --
 - Outils informatiques G
 	- Systèmes de Contrôle de Versions
 	- Rapport de bugs et gestion des feuilles de route 
