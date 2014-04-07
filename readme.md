@@ -6,7 +6,7 @@ Sommaire
 
 ### [Introduction](#introduction)
 
-### 1. [Enjeux](#enjeux)
+### 1. [Enjeux](#les-enjeux-de-la-collaboration)
 
 - Intro *Victor*
 - Gains de productivité *Victor*
@@ -15,7 +15,7 @@ Sommaire
 - Taille de l'entreprise et du projet *Victor*
 - Conclu *Victor*
 
-### 2. [Méthodes](#methodes)
+### 2. [Les méthodes de travail](#les-méthodes-de-travail)
 
 - Introduction *Victor*
 - Méthodes de travail dans l'informatique *Nathanaël*
@@ -26,7 +26,7 @@ Sommaire
 	- Préférences au sein de l'entreprise
 - Conclusion *Nathanaël*
  
-### 3. [Outils](#outils)
+### 3. [Les outils d'aide au travail collaboratif](#Les-outils-daide-au-travail-collaboratif)
 
 - Introduction *Victor*
 - ERP *Nathanaël*
