@@ -47,16 +47,14 @@ Bibliographie
 
 ----------------------------------------------------------------------------------------------------
 
-<a id="intro"></a>
-Introduction
+Introduction <a id="intro"></a>
 ============
 
 *Introduction sur l'organisation collaborative du travail...*
 
 ----------------------------------------------------------------------------------------------------
 
-<a id="enjeux"></a>
-Les enjeux de la collaboration
+Les enjeux de la collaboration <a id="enjeux"></a>
 ==============================
 
 Introduction
@@ -110,8 +108,7 @@ Conclusion
 
 ----------------------------------------------------------------------------------------------------
 
-<a id="methodes"></a>
-Les méthodes de travail
+Les méthodes de travail <a id="methodes"></a>
 =======================
 
 Introduction
@@ -234,8 +231,7 @@ Nous avons vu les différentes méthodes de travail pouvant être adoptées pour
 
 ----------------------------------------------------------------------------------------------------
 
-<a id="outils"></a>
-Les outils d'aide au travail collaboratif
+Les outils d'aide au travail collaboratif <a id="outils"></a>
 ========================================
 
 Introduction
@@ -280,8 +276,7 @@ Conclusion
 
 *Conclusion de la partie*
 
-<a id="conclusion"></a>
-Conclusion
+Conclusion <a id="conclusion"></a>
 ==========
 
 *Conlusion du dossier*
