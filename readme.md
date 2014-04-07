@@ -4,9 +4,9 @@ Organisation collaborative du travail
 Sommaire
 --------
 
-### [Introduction](#introduction)
+### [Introduction](#intro)
 
-### 1. [Enjeux](#les-enjeux-de-la-collaboration)
+### 1. [Les enjeux de la collaboration](#enjeux)
 
 - Intro *Victor*
 - Gains de productivité *Victor*
@@ -15,7 +15,7 @@ Sommaire
 - Taille de l'entreprise et du projet *Victor*
 - Conclu *Victor*
 
-### 2. [Les méthodes de travail](#les-méthodes-de-travail)
+### 2. [Les méthodes de travail](#methodes)
 
 - Introduction *Victor*
 - Méthodes de travail dans l'informatique *Nathanaël*
@@ -26,7 +26,7 @@ Sommaire
 	- Préférences au sein de l'entreprise
 - Conclusion *Nathanaël*
  
-### 3. [Les outils d'aide au travail collaboratif](#Les-outils-daide-au-travail-collaboratif)
+### 3. [Les outils d'aide au travail collaboratif](#outils)
 
 - Introduction *Victor*
 - ERP *Nathanaël*
@@ -36,7 +36,7 @@ Sommaire
 	- Outils de controle de qualité du code
 - Conclusion *Victor*
 
-### [Conclusion](#conclusion)
+### [Conclusion](#conclu)
 
 Bibliographie
 -------------
@@ -47,14 +47,14 @@ Bibliographie
 
 ----------------------------------------------------------------------------------------------------
 
-Introduction
+Introduction <a id="intro"></a>
 ============
 
 *Introduction sur l'organisation collaborative du travail...*
 
 ----------------------------------------------------------------------------------------------------
 
-Les enjeux de la collaboration
+Les enjeux de la collaboration <a id="enjeux"></a>
 ==============================
 
 Introduction
@@ -108,7 +108,7 @@ Conclusion
 
 ----------------------------------------------------------------------------------------------------
 
-Les méthodes de travail
+Les méthodes de travail <a id="methodes"></a>
 =======================
 
 Introduction
@@ -231,7 +231,7 @@ Nous avons vu les différentes méthodes de travail pouvant être adoptées pour
 
 ----------------------------------------------------------------------------------------------------
 
-Les outils d'aide au travail collaboratif
+Les outils d'aide au travail collaboratif <a id="outils"></a>
 ========================================
 
 Introduction
@@ -276,7 +276,7 @@ Conclusion
 
 *Conclusion de la partie*
 
-Conclusion
+Conclusion <a id="conclu"></a>
 ==========
 
 *Conlusion du dossier*
