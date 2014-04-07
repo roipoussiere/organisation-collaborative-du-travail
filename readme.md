@@ -4,9 +4,9 @@ Organisation collaborative du travail
 Sommaire
 --------
 
-### [Introduction](intro)
+### [Introduction](#intro)
 
-### 1. [Enjeux](enjeux)
+### 1. [Enjeux](#enjeux)
 
 - Intro *Victor*
 - Gains de productivité *Victor*
@@ -15,7 +15,7 @@ Sommaire
 - Taille de l'entreprise et du projet *Victor*
 - Conclu *Victor*
 
-### 2. [Méthodes](methodes)
+### 2. [Méthodes](#methodes)
 
 - Introduction *Victor*
 - Méthodes de travail dans l'informatique *Nathanaël*
@@ -26,7 +26,7 @@ Sommaire
 	- Préférences au sein de l'entreprise
 - Conclusion *Nathanaël*
  
-### 3. [Outils](outils)
+### 3. [Outils](#outils)
 
 - Introduction *Victor*
 - ERP *Nathanaël*
@@ -36,7 +36,7 @@ Sommaire
 	- Outils de controle de qualité du code
 - Conclusion *Victor*
 
-### [Conclusion](conclusion)
+### [Conclusion](#conclusion)
 
 Bibliographie
 -------------
@@ -51,17 +51,22 @@ Bibliographie
 Introduction
 ============
 
+*Introduction sur l'organisation collaborative du travail...*
+
 ----------------------------------------------------------------------------------------------------
 
 <a id="enjeux"></a>
 Les enjeux de la collaboration
-------------------------------
+==============================
 
-### Introduction
+Introduction
+------------
 
-### 1. Gains de productivité
+1. Gains de productivité
+------------------------
 
-### 2. Collaboration
+2. Collaboration
+----------------
 
 Une entreprise a pour objectif de réaliser des produits et services. Mis à part pour les auto-entrepreuneurs, il est donc question de réaliser des projets, quels qu'ils soient, en équipe. De fait, une certaine collaboration entre les membres de cette équipe est inevitable pour parvenir à réaliser le travail attendu.
 
@@ -86,7 +91,8 @@ Les membres du groupe s'entendent sufisament bien pour travailler ensemble dans 
 - **Excellente collaboration** : l'efficacité de l'équipe est supérieure à la somme de l'efficacité de ses membres.
 Schéma idéal et particulièrement difficile à atteindre, il est toutefois possible d'y parvenir grâce à une équipe particulièrement soudée et organisée. Il est également nécessaire de favoriser l'échange de conaissances entre les différents membres de l'équipe et d'utiliser des outils de travail collaboratif adaptés.
 
-### 3. Entreprise ou projet
+3. Entreprise ou projet
+-----------------------
 
 L'organisation collaborative du travail concerne d'une part un projet réalisé à plusieurs, mais d'autre part l'entreprise qui réalise un produit ou un service
 
@@ -94,17 +100,22 @@ Il est intéressant de dissocier ces deux aspects, même s'ils sont bien évidem
 
 Le développement d'internet a grandement facilité le partage d'information entre personnes à travers le monde. Ainsi, certains projets collaboratifs ont put voir le jour, faisant intervenir différents acteurs géographiquement distants, sans qu'il n'y ait d'entité juridique ni d'établissement physique définis. Dans le cadre de ces projets, qui peuvent faire intervenir des centaines de personnes, une bonne collaboration est inévitable.
 
-### 4. Taille de l'entreprise et du projet
+4. Taille de l'entreprise et du projet
+--------------------------------------
 
-### Conclusion
+Conclusion
+----------
+
+*Conclusion de la partie*
 
 ----------------------------------------------------------------------------------------------------
 
 <a id="methodes"></a>
 Les méthodes de travail
------------------------
+=======================
 
-### Introduction
+Introduction
+------------
 
 Lorsque un projet devient assez conséquent, sa gestion devient de plus en plus complexe. Un produit informatique comportera un grande quantité de code, dont il faut faciliter la maintenance le plus tôt possible. Il fera intervenir un grand nombre de personnes, réparties dans plusieurs équipes de travail
 En outre, le prestataire devra collaborer avec un client n'a pas les mêmes notions techniques et dont les besoins peuvent évoluer.
@@ -113,11 +124,12 @@ Une bonne organisation du travail est donc essentielle pour la réeussite d'un t
 
 L'organisation d'un projet passe tout d'abord par une méthode de travail à appliquer. Le choix d'une méthode de travail est généralement la première décision à prendre avec le client avant de commencer le développement d'un produit. En outre, elle aura une grande incidence sur sa réussite.
 
-### 1. Méthodes de travail dans l'informatique
+1. Méthodes de travail dans l'informatique
+------------------------------------------
 
 Il existe de nombreux modèles de gestion de projet dans le milieu industriel. Nous allons ici nous pencher sur deux méthodes de travail : le cylce en V et les méthodes Agiles.
 
-#### 1.1 Le cycle en V
+### 1.1 Le cycle en V
 
 En gestion de projet, il est important de considérer les erreurs comme faisant partie intégrante d'un projet (*Erare Humanum est*). Dans l'industrie en générale, plus un problème est détecté tôt, plus il sera facile de le corriger et moins grande en sera les conséquences (effet de bord). Ainsi, pendant le développement d'un produit, l'objectif n'est pas tant de limiter les erreurs, mais davantage de parvenir à les détecter le plus tôt possible.
 
@@ -157,7 +169,7 @@ Par exemple, dans le cadre de la réalisation d'un site internet, il sera bien u
 
 Ainsi, avec une approche théorique, le cycle en V possède de nombreux avantages et peut se révéler très utile dans le développement d'un projet informatique. Toutefois, la mise en pratique de ce modèle de gestion de projet a mis en valeurs certains défauts.
 
-#### 1.2 Les méthodes agiles
+### 1.2 Les méthodes agiles
 
 La méthode du cycle en V, bien qu'elle soit intéressante d'un point de vue théorique, possède en réalité de gros inconvénients, pouvant mettre en péril la réussite du projet :
 
@@ -183,7 +195,7 @@ En outre, les méthodes agiles permettent :
 
 Il existe plusieurs méthodes Agiles, qui ont leurs propres spécifications et qui doivent être adaptées en fonction du contexte. Ainsi, il ne suffit pas de choisir de développer un projet au moyen des méthodes agiles, il faut également se pencher sur la méthode à adopter. Parmi les plus connues, on retrouve :
 
-##### La méthode Scrum
+#### La méthode Scrum
 
 Le terme *Scrum* provient du rugby à XV et signifie *mêlée*, sport qui a pour objectif d'atteindre un but grace à une équipe soudée.
 Le projet est découpé en différentes étapes, appelées *sprints*, comportant un objectif précis à atteindre : un ensemble de fonctionnalités du produit.
@@ -191,7 +203,7 @@ Au sein de l'équipe, une personne est désignée *ScrumMaster*, qui a la charge
 
 Ces fonctionnalités sont souvent représentées physiquement au moyen de *post-its* à coller sur un tableau composé de trois colonnes correpondant à leur état actuel : *à faire*, *en cours* et *réalisé*.
 
-##### La méthode XP (Extreme programming)
+#### La méthode XP (Extreme programming)
 
 Ma méthode XP consite en différents principes à appliquer pendant la réalisation d'un projet. Ces derniers existent depuis de nombreuses années, toutefois ils sont ici poussés à l'extrème :
 
@@ -206,15 +218,17 @@ Ma méthode XP consite en différents principes à appliquer pendant la réalisa
 
 Cette méthodes est adaptée aux équipes réduites avec des besoins qui peuvent évoluer.
 
-### 2. Critères de choix
+2. Critères de choix
+--------------------
 
-#### 2.1 Rapport avec le client
-
-
-#### 2.2 Préférences au sein de l'entreprise
+### 2.1 Rapport avec le client
 
 
-### Conclusion
+### 2.2 Préférences au sein de l'entreprise
+
+
+Conclusion
+----------
 
 Nous avons vu les différentes méthodes de travail pouvant être adoptées pour la réalisation d'un projet informatique. Nous avons également vu comment le rapport avec le client et les préférences au sein de l'entreprise peut influencer su le choix de ces méthodes.
 
@@ -222,11 +236,15 @@ Nous avons vu les différentes méthodes de travail pouvant être adoptées pour
 
 <a id="outils"></a>
 Les outils d'aide au travail collaboratif
------------------------------------------
+========================================
 
-### Introduction
+Introduction
+------------
 
-#### 1. Les progiciel de gestion intégré
+*Introduction de la partie*
+
+1. Les progiciel de gestion intégré
+-----------------------------------
 
 Un Progiciel de Gestion Intégré (PGI ou ERP, de l'anglais *Enterprise Resource Planning*), est une solution logicielle regroupant différents outils ayant pour but d'assister les différentes composantes de l'entreprise. Il permet une gestion globale et simplifiée, via un support organisationnel unique pour toute l'entreprise. L'usage d'une base de données commune facilite grandement la gestion des différents domaines de gestion de l'entreprise.
 
@@ -246,18 +264,24 @@ On peut notament retrouver dans la base de données d'un PGI :
 
 On remarque qu'à travers une unique base données, plusieurs domaines rentrent en jeu : la table des produits comporte à la fois les nomenclatures et matières premières, qui sont des informations relatives à leur fabrication, mais également leurs quantités, qui est une information relative à leurs vente.
 
-### 2. Outils informatiques
+2. Outils informatiques
+-----------------------
 
-#### 2.1 Systèmes de Contrôle de Versions ###
-
-
-#### 2.2 Rapport de bugs et gestion des feuilles de route ###
+### 2.1 Systèmes de Contrôle de Versions
 
 
-#### 2.3 Outils de controle de qualité du code ###
+### 2.2 Rapport de bugs et gestion des feuilles de route
 
-### Conclusion
+
+### 2.3 Outils de controle de qualité du code
+
+Conclusion
+----------
+
+*Conclusion de la partie*
 
 <a id="conclusion"></a>
 Conclusion
-----------
+==========
+
+*Conlusion du dossier*
