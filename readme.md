@@ -31,8 +31,8 @@ Sommaire
 - Introduction *Victor*
 - ERP *Nathanaël*
 - Outils informatiques *Victor*
-	- Systèmes de Contrôle de Versions
-	- Rapport de bugs et gestion des feuilles de route 
+	- Systèmes de Gestion de Versions
+	- Rapport de bugs et gestion des feuilles de route
 	- Outils de contrôle de qualité du code
 - Conclusion *Victor*
 
@@ -238,7 +238,7 @@ Nous avons vu les différentes méthodes de travail pouvant être adoptées pour
 Introduction
 ------------
 
-*Introduction de la partie*
+Face aux difficultés
 
 3.1. Les progiciel de Gestion Intégré
 -------------------------------------
@@ -264,20 +264,54 @@ On remarque qu'à travers une unique base de données, plusieurs domaines rentre
 3.2. Outils informatiques
 -------------------------
 
-### 3.2.1 Systèmes de Contrôle de Versions
+Le développement informatique en équipe pose de nombreuses difficultés spécifiques, en plus de celles qui sont commune à toute forme de collaboration. Afin de faire face à ces difficultés, de nombreux outils spécifiques ont été créés. Certains de ces outils sont largement utilisés en entreprises.
 
+### 3.2.1 Systèmes de Gestion de Versions
+
+Parmi les premiers problèmes à émerger dès que plusieurs développeurs travaillent sur un même logiciel est le partage des modifications. Cela regroupe plusieurs problèmes :
+
+- Chacun doit disposer de la dernière version du logiciel, afin de ne pas baser ses modifications sur quelque chose qui n’est plus d’actualité.
+- Si plusieurs personnes apportent des modifications différentes à leur copies respectives d’un même fichier, plus personne ne dispose d’une version incluant toutes les dernières modifications. Pour cela, il est nécessaire de créer une version fusionnant ces modifications.
+- Parfois, plusieurs versions d’un même logiciel doivent coexister (par exemple, une version stable à laquelle ne sont apportées que des corrections de bugs, et une version proposant de nouvelles fonctionnalités expérimentales). Cela peut rapidement devenir source de confusion.
+- Suite à la découverte d’une régression (apparition d’un bug qui n’existait pas précédemment), il est important de déterminer exactement quelle modification a entraîné ce bug afin de pouvoir le corriger au plus vite.
+
+Les outils de contrôle de version permettent de répondre à ces problèmes. Parmi ces logiciels, les deux qui sont le plus couramment utilisés sont SVN et Git. Bien que leur fonctionnements internes soient fondamentalement différents, ils offrent des fonctionnalité similaires :
+
+- Regroupement d’un ensemble de modifications en unités atomiques (baptisées « révisions » par SVN et « commits » par Git)
+- Publication de ces modifications
+- Accès aux informations utile concernant chaque modification (auteur, date, différences ligne à ligne)
+- Fusionnement (« merge ») automatique des modifications à un même fichier, lorsque c’est possible
+- Création de « branches », permettant d’isoler plusieurs versions divergentes
+- Possibilité de retourner à n’importe quel état antérieur
+
+Ces fonctionnalités permettent de répondre aux problèmes formulés ci-dessus.
 
 ### 3.2.2 Rapport de bugs et gestion des feuilles de route
 
+Un logiciel est destiné à évoluer constamment. De nouveaux bugs sont découverts, et le client demande de nouvelles fonctionnalités. Une gestion de projet efficace nécessite d’identifier ces différentes tâches (qu’il s’agisse de corrections ou d’évolutions), d’en estimer le coût et d’y affecter des ressources humaines et matérielles. Il existe des outils prévus à cet effet, tels que Trac ou Redmine.
+
+Ces outils associe à chaque tâche un « ticket ». Chaque ticket peut être affecter à une ou plusieurs personnes, ce qui permet au chef de projet de suivre l’avancement global du projet ainsi que la répartition des tâches *via* une interface Web.
+
+Lorsque cela est souhaité, ces outils permettent à des personnes extérieures au projet de créer de nouveau tickets. Cette pratique est largement répandue dans les projets open-source, mais elle est également utilisée par certaines entreprises afin d’offrir au client un cadre formel pour effectuer des demandes.
+
+De plus, ces outils offrent une intégration avec les systèmes de gestion de versions. Il est par exemple possible d’afficher la liste des modifications se rapportant à un ticket donné, ou d’imposer des restrictions sur les modifications autorisées (par exemple, interdire à un développeur de publier des modifications relatives à un ticket auquel il n’est pas affecté).
 
 ### 3.2.3 Outils de contrôle de qualité du code
+
+Tout développeur est capable d’écrire du code compréhensible pour l’ordinateur. Faire en sorte que ce code soit également compréhensible par les autres développeurs participant au projet est non moins important, mais peut s’avérer plus difficile. En effet, chacun a son propre style et ses idiosyncrasies auxquelles les autres ne sont pas habitués.
+
+C’est pourquoi il existe des *conventions de code* — des ensembles de règles de programmation. Certaines sont des standards internationaux, d’autres des règles internes à une entreprise. Lorsque tous les participants à un projet comprennent et respectent les mêmes conventions de code, la compréhension mutuelle est grandement facilitée, ce qui à son tour facilite la collaboration.
+
+Ces conventions ne sont utiles que si elles sont appliquées, et vérifier cela manuellement serait laborieux. Heureusement, il existe des outils informatiques permettant de vérifier automatiquement le respect des conventions. Ces outils d’analyse du code ont généralement d’autres fonctionnalités, comme la détection d’erreurs de programmation potentielles.
+
+Une fois mis en place, ces outils permettent de détecter et de corriger au plus vite certains problèmes.
 
 Conclusion
 ----------
 
-*Conclusion de la partie*
+Ainsi, il existe de nombreux outils informatiques permettant de faciliter la collaboration. Cependant, aussi sophistiqués que soient ces outils, ils ne font pas tout. Le facteur humain reste primordial, et une bonne entente est nécessaire afin d’atteindre une synergie efficace entre les participants.
 
 Conclusion <a name="conclu"></a>
 ==========
 
-*Conlusion du dossier*
+*Conclusion du dossier*
