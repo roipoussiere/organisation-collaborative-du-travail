@@ -139,7 +139,7 @@ Les étapes du cycle en V sont regroupées en plusieurs phases : la phase de con
 
 On peut noter une correspondances entre les phases d'un même niveau : par exemple, si il existe un problème lors d'un test d'intégration, cela va affecter la conception architecturale.
 
-![Schéma du cycle en V](https://raw.githubusercontent.com/roipoussiere/organisation-collaborative-du-travail/master/img/cycle_en_v.png)
+![Schéma du cycle en V](img/cycle_en_v.png)
 
 - La phase de conception :
 	- Analyse des besoins et faisabilité ;
@@ -189,7 +189,7 @@ En outre, les méthodes agiles permettent :
 - une grande réactivité à ses demandes, même pendant la réalisation du produit ;
 - d'obtenir un produit partiellement fonctionnel, quelque soit l'état d'avancement du projet.
 
-![Schéma du circuit agile](https://raw.githubusercontent.com/roipoussiere/organisation-collaborative-du-travail/master/img/agiles.jpg)
+![Schéma du circuit agile](img/agiles.jpg)
 
 Il existe plusieurs méthodes Agiles, qui ont leurs propres spécifications et qui doivent être adaptées en fonction du contexte. Ainsi, il ne suffit pas de choisir de développer un projet au moyen des méthodes agiles, il faut également se pencher sur la méthode à adopter. Parmi les plus connues, on retrouve :
 
