@@ -67,16 +67,15 @@ Introduction
 1.2. Collaboration
 ----------------
 
-Une entreprise a pour objectif de réaliser des produits et services. Mis à part pour les auto-entrepreuneurs, il est donc question de réaliser des projets, quels qu'ils soient, en équipe. De fait, une certaine collaboration entre les membres de cette équipe est inévitable pour parvenir à réaliser le travail attendu.
+Une entreprise a pour objectif de réaliser des produits et services. Pour parvenir à réaliser le travail attendu, une certaine collaboration est nécessaire entre le client et le prestataireles, entre les équipes de travail, ainsi qu'entre les membres dans chaque équipe.
 
-On peut observer chez certaines espèces animales, notamment les fourmis, la présence d'un très forte collaboration, même si le nombre de participants à un projet est important.
+On peut observer chez certaines espèces animales, notamment les fourmis, la présence d'une très forte organisation, alors que le nombre de participants à un projet est important.
 
-La collaboration définit avant tout le fait que les différents membres du groupe s'entendent pour parvenir à un objectif commun. L'efficacité de cette collaboration est fonction de plusieurs paramètres, tels que la personnalité des différents membres du groupe, les conditions de travail, etc.
+La collaboration définit avant tout le fait que les différents membres du groupe s'entendent pour parvenir à un objectif commun. L'efficacité de cette collaboration est fonction de plusieurs paramètres, tels que la personnalité des différents individus, les conditions de travail, etc.
 
-L'efficacité est le résultat de la quantité de travail demandé sur le temps qui a été nécessaire pour le réaliser.
+L'efficacité est le résultat de la quantité de travail demandé, sur le temps qui a été nécessaire pour le réaliser.
 
-Il est important de dissocier l'efficacité de l'équipe et l'efficacité de ses membres. En outre, il faut savoir que l'efficacité de l'équipe n'est pas nécessairement égale à la somme de l'efficacité de ses membres.
-TODO: mentionner à ce sujet [Le Mythe du Mois Homme](http://en.wikipedia.org/wiki/The_Mythical_Man-Month)
+Il est important de dissocier l'efficacité de l'équipe et l'efficacité de ses membres. En outre, il faut savoir que l'efficacité de l'équipe n'est pas nécessairement égale à la somme de l'efficacité de ses membres. Dans *Le Mythe du Mois Homme*, de Frederick Brooks, ...
 
 Ainsi, en terme de performance, la réussite de la collaboration de l'équipe peut être définie par le ratio : efficacité de l'équipe sur la somme de l'efficacité de ses membres.
 
