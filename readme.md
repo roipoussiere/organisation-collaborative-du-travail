@@ -51,7 +51,7 @@ Bibliographie
 Introduction <a name="intro"></a>
 ============
 
-*Introduction sur l'organisation collaborative du travail...*
+
 
 ----------------------------------------------------------------------------------------------------
 
@@ -75,9 +75,9 @@ La collaboration définit avant tout le fait que les différents membres du grou
 
 L'efficacité est le résultat de la quantité de travail demandé, sur le temps qui a été nécessaire pour le réaliser.
 
-Il est important de dissocier l'efficacité de l'équipe et l'efficacité de ses membres. En outre, il faut savoir que l'efficacité de l'équipe n'est pas nécessairement égale à la somme de l'efficacité de ses membres. Dans *Le Mythe du Mois Homme*, de Frederick Brooks, ...
+Il est important de distinguer l'efficacité de l'équipe et l'efficacité de ses membres. En effet, il faut savoir que l'efficacité de l'équipe n'est pas nécessairement égale à la somme de l'efficacité de ses membres. Dans *Le Mythe du Mois Homme*, Frederick Brooks contredit l'idée commune selon laquelle une charge de travail peut se mesurer en mois-homme (nombre de participants multiplié par la durée). Par exemple, si l'on double les effectifs sur un projet en retard, cela ne divise pas le temps nécessaire par deux. Au contraire, les difficultés pour former et organiser les nouveaux venus peuvent retarder le projet encore plus. Frederick Brooks résume cette idée par la maxime sarcastique : « Neuf femmes ne font pas un enfant en un mois ».
 
-Ainsi, en terme de performance, la réussite de la collaboration de l'équipe peut être définie par le ratio : efficacité de l'équipe sur la somme de l'efficacité de ses membres.
+Ainsi, en termes de performance, la réussite de la collaboration de l'équipe peut être définie par le ratio : efficacité de l'équipe sur la somme de l'efficacité de ses membres.
 
 On peut dès lors observer trois niveaux de collaboration :
 
