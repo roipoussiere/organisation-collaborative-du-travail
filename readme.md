@@ -41,17 +41,17 @@ Sommaire
 Bibliographie
 -------------
 
-- Livre Méthodes de W collaboratif
-- Livre Méthodes Agiles (à emprunter)
-- The Git book
-- Le Mythe du Mois Homme
+- Livre sur les méthodes de travail collaboratif ;
+- Livre sur les méthodes agiles ;
+- *The Git book* ;
+- Le *Mythe du Mois Homme*.
 
 ----------------------------------------------------------------------------------------------------
 
 Introduction <a name="intro"></a>
 ============
 
-
+*Introduction sur l'organisation collaborative du travail...*
 
 ----------------------------------------------------------------------------------------------------
 
@@ -75,9 +75,9 @@ La collaboration définit avant tout le fait que les différents membres du grou
 
 L'efficacité est le résultat de la quantité de travail demandé, sur le temps qui a été nécessaire pour le réaliser.
 
-Il est important de distinguer l'efficacité de l'équipe et l'efficacité de ses membres. En effet, il faut savoir que l'efficacité de l'équipe n'est pas nécessairement égale à la somme de l'efficacité de ses membres. Dans *Le Mythe du Mois Homme*, Frederick Brooks contredit l'idée commune selon laquelle une charge de travail peut se mesurer en mois-homme (nombre de participants multiplié par la durée). Par exemple, si l'on double les effectifs sur un projet en retard, cela ne divise pas le temps nécessaire par deux. Au contraire, les difficultés pour former et organiser les nouveaux venus peuvent retarder le projet encore plus. Frederick Brooks résume cette idée par la maxime sarcastique : « Neuf femmes ne font pas un enfant en un mois ».
+Il est important de dissocier l'efficacité de l'équipe et l'efficacité de ses membres. En outre, il faut savoir que l'efficacité de l'équipe n'est pas nécessairement égale à la somme de l'efficacité de ses membres. Dans *Le Mythe du Mois Homme*, de Frederick Brooks, ...
 
-Ainsi, en termes de performance, la réussite de la collaboration de l'équipe peut être définie par le ratio : efficacité de l'équipe sur la somme de l'efficacité de ses membres.
+Ainsi, en terme de performance, la réussite de la collaboration de l'équipe peut être définie par le ratio : efficacité de l'équipe sur la somme de l'efficacité de ses membres.
 
 On peut dès lors observer trois niveaux de collaboration :
 
@@ -91,13 +91,15 @@ Les membres du groupe s'entendent suffisamment bien pour travailler ensemble dan
 Schéma idéal et particulièrement difficile à atteindre, il est toutefois possible d'y parvenir grâce à une équipe particulièrement soudée et organisée. Il est également nécessaire de favoriser l'échange de connaissances entre les différents membres de l'équipe et d'utiliser des outils de travail collaboratif adaptés.
 
 1.3. Entreprise ou projet
------------------------
+-------------------------
 
-L'organisation collaborative du travail concerne d'une part un projet réalisé à plusieurs, mais d'autre part l'entreprise qui réalise un produit ou un service
+L'organisation collaborative du travail concerne d'une part un projet réalisé à plusieurs, mais d'autre part l'entreprise qui réalise un produit ou un service. Il est intéressant de dissocier ces deux aspects, même s'ils sont bien évidement étroitement liés.
 
-Il est intéressant de dissocier ces deux aspects, même s'ils sont bien évidement étroitement liés. En effet, on peut retrouver l'usage d'une telle organisation dans certains projets qui ne sont pas réalisés par une entreprise. D'un autre coté, une entreprise peut très bien adopter une certaine organisation, sans toutefois l'appliquer de manière individuelle et personnalisée dans chacun de ses projets.
+On peut noter l'existence de projets réalisés par de nombreuses personnes, sans aucun rapport avec une quelquonque entreprise. Par exemple le développement du noyaux Linux (un système d'exploitation open-source), est réalisé par des milliers de développeurs de par le monde, de manière indépendante et sans qu'aucune organisation ou entreprise gouverne ce travail. Il est ici évident que pour que ce projet avance, ces personnes doivent collaborer ensemble et suivre un système d'organisation rigoureux.
 
 Le développement d'Internet a grandement facilité le partage d'information entre personnes à travers le monde. Ainsi, certains projets collaboratifs ont pu voir le jour, faisant intervenir différents acteurs géographiquement distants, sans qu'il n'y ait d'entité juridique ni d'établissement physique définis. Dans le cadre de ces projets, qui peuvent faire intervenir des centaines de personnes, une bonne collaboration est indispensable.
+
+On peut noter aussi que certaines entreprises ont leur propres modèles d'organisation, qu'ils appliquent à chacun de leur projet. Ici l'organisation se situe au niveau de l'entreprise et non au niveau du projet.
 
 1.4. Taille de l'entreprise et du projet
 --------------------------------------
