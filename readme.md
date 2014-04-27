@@ -5,7 +5,6 @@ Sommaire
 --------
 
 ### [Introduction](#intro)
-Google Drive ? -> outils collaboratifs devenus omniprésents
 
 ### 1. [Les enjeux de la collaboration](#enjeux)
 
@@ -53,7 +52,6 @@ Bibliographie
 Introduction <a name="intro"></a>
 ============
 
-*Introduction sur l'organisation collaborative du travail...*
 On peut d'ailleurs observer chez certaines espèces animales, notamment les fourmis, un grand nombre de participants à un projet. Par conséquent, ces sociétés animales disposent d'une excellente organisation.
 
 ----------------------------------------------------------------------------------------------------
@@ -238,7 +236,7 @@ Nous avons vu les différentes méthodes de travail pouvant être adoptées pour
 Introduction
 ------------
 
-Face aux difficultés...
+Intro avec Google Drive -> outils collaboratifs devenus omniprésents
 
 3.1. Les progiciel de Gestion Intégré
 -------------------------------------
