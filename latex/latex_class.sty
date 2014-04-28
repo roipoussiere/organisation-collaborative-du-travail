@@ -1,0 +1,104 @@
+%packages
+\usepackage[utf8]{inputenc}  % format du texte
+\usepackage{color}           % couleur (notament dans les extraits de code)
+\usepackage{graphicx}        % images
+\usepackage{wrapfig}         % images intégres au texte
+\usepackage{listings}        % extraits de code
+\usepackage{multirow}        % pour faire des fusion de cellules dans un tableau
+\usepackage[vmargin=2cm, left=3cm, right=2cm]{geometry}
+\usepackage{fancyhdr}        % en-tête et pied de page
+\usepackage{lastpage}        % Compte le nombre de pages
+\usepackage[final]{pdfpages} % Inclusion des PDFs
+\usepackage{titlesec}        % Pour les titres des chapitres
+\usepackage{caption}
+\usepackage{tocloft}         % pour la liste des annexes
+\usepackage{hyperref}        % Table des matières cliquable
+\usepackage{tocbibind}		 % Ajoute la toc, tof, biblio, etc. dans la toc
+\usepackage{glossaries}      % pour le glossaire
+\usepackage[francais]{babel} % langue
+\makeglossaries
+
+% Paramètres des en-tête et pied de page
+\renewcommand\headrulewidth{1pt}
+\renewcommand\footrulewidth{1pt}
+\fancyhead[L]{\leftmark}
+\fancyhead[R]{\rightmark}
+\fancyfoot[R]{Nathanaël Jourdane et Victor Adam}
+\fancyfoot[C]{\thepage/\pageref{LastPage}}
+
+% Citation en italique
+\newenvironment{italicquotes}
+{\begin{quote}\itshape}
+{\end{quote}}
+
+% Profondeur de la table des matières
+\setcounter{tocdepth}{1}
+
+% N'affiche pas les en-tête et pied de page
+\pagestyle{empty}
+
+% Remplace le mot 'chapitre' par 'partie'
+\titleformat{\chapter}[hang]{\bf\huge}{Partie \thechapter ~ : }{0.5 em}{} 
+
+% Chemin du dossier d'images
+\graphicspath{{img/}}
+
+% Définition des couleurs
+\definecolor{gray}{RGB}{160, 160, 160}
+\definecolor{violet}{RGB}{150, 80, 255}
+\definecolor{darkgreen}{RGB}{0, 143, 72}
+
+% paramètres des extraits de code
+\lstset{
+  basicstyle=\footnotesize\fontfamily{pcr}\selectfont, % style de texte
+  commentstyle=\color{darkgreen},      % style du commentaire
+  frame=single,                    % ajoute cadre autour du code
+  keywordstyle=\color{blue},       % style du mot-clé
+  language=Java,                   % le langage utilisé par défaut
+  numbers=left,                    % numéros de lignes à gauche
+  numbersep=7pt,                   % espace entre le numéro des lignes et le code
+  numberstyle=\tiny \color{gray},  % style des numéros de ligne
+  showstringspaces=false,          % n'ajoute pas des underscore dans les strings
+  stringstyle=\color{violet},      % style des strings
+  tabsize=4,                       % taille des tabulations
+  title={Extrait du code}          % titre par défaut
+}
+
+% insère une page blanche et l'entête et pied de page lors de l'ajout du titre
+\addto\maketitle{\newpage \strut \newpage \pagestyle{fancyplain}}
+
+% En-tête du glossaire en majuscule
+\addto\printglossaries {\markboth{\slshape\MakeUppercase{Glossaire}}{}}
+
+\addto\appendix {
+	\newpage
+	\markboth{\slshape\MakeUppercase{Annexes}}{}
+	\part*{Annexes}
+	\addcontentsline{toc}{part}{Annexes}
+	\listofappendices
+	\markboth{\slshape\MakeUppercase{Annexes}}{}
+}
+
+\newcommand{\quotes}[1]{\og #1 \fg{}}
+\newcommand{\backchapter}[1]{ % macro pour chapitres de fin
+	\chapter*{#1}
+	\addcontentsline{toc}{chapter}{#1}
+	\markboth{\slshape\MakeUppercase{#1}}{}
+}
+
+% Liste des annexes
+\newcommand{\listappendicesname}{Table des annexes}
+\newlistof{appendices}{apc}{\listappendicesname}
+
+\newcommand{\appendixchapter}[1]{ % macro pour chapitres d'annexe
+	\chapter*{#1}
+	\markboth{\slshape\MakeUppercase{Annexes}}{\slshape\MakeUppercase{#1}}
+	\addcontentsline{apc}{appendices}{#1}
+	\label{#1}
+}
+
+\AtBeginDocument {
+	\input{glossaire}
+}
+
+\endinput

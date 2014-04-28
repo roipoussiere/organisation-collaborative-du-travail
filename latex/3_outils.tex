@@ -1,0 +1,79 @@
+\chapter{Les outils d'aide au travail collaboratif}
+
+Intro avec Google Drive -> outils collaboratifs devenus omniprésents
+
+\section{Les ERP}
+
+Un Progiciel de Gestion Intégré (PGI ou ERP, de l'anglais *Enterprise Resource Planning*), est une solution logicielle regroupant différents outils ayant pour but d'assister les différentes composantes de l'entreprise. Il permet une gestion globale et simplifiée, via un support organisationnel unique pour toute l'entreprise. L'usage d'une base de données commune facilite grandement la gestion des différents domaines de gestion de l'entreprise.
+
+L'entreprise CXP, spécialisée dans le conseil et l'analyse de solutions logicielles d'entreprise, définit ce progiciel ainsi :
+
+\begin{italicquotes}
+Un PGI est un progiciel qui intègre les principales composantes fonctionnelles de l'entreprise : gestion de production, gestion commerciale, logistique, ressources humaines, comptabilité, contrôle de gestion.
+À l'aide de ce système unifié, les utilisateurs de différents métiers travaillent dans un environnement applicatif identique qui repose sur une base de données unique. Ce modèle permet d'assurer l'intégrité des données, la non-redondance de l'information, ainsi que la réduction des temps de traitement.
+\end{italicquotes}
+
+Il existe des PGI pour de nombreux corps de métiers : l'informatique, la santé, l'éducation, le commerce de détail, etc. D'autre part, ces progiciels sont modulaires et permettent d'activer uniquement les fonctionnalités nécessaires, ils sont également hautement paramétrables. Ainsi, un PGI pourra s'adapter afin de correspondre exactement aux besoins de l'entreprise. Le paramétrage d'un tel progiciel peut donc se révéler complexe, aussi certaines entreprises préfèrent sous-traiter l'installation du PGI.
+
+On peut notamment retrouver dans la base de données d'un PGI :
+
+\begin{itemize}
+\item Une table pour les produits, comportant leurs nomenclatures, leurs matières premières, leurs quantités, etc. ;
+\item Une table pour les clients, comportant leurs commandes et livraisons ;
+\item Des tables pour les stocks, les durées de conservations, les délais d'acheminement des transporteurs ;
+\item Des tables relatives aux aspects financiers de l'entreprise.
+\end{itemize}
+
+On remarque ainsi qu'à travers une unique base de données, plusieurs domaines rentrent en jeu : la table des produits comporte à la fois les nomenclatures et matières premières, qui sont des informations relatives à la fabrication ; mais également la quantité, qui est une information relative à la vente.
+
+\section{Outils utilisés en informatique}
+
+Le développement informatique en équipe pose de nombreuses difficultés spécifiques, en plus de celles qui sont commune à toute forme de collaboration. Afin de faire face à ces difficultés, de nombreux outils spécifiques ont été créés. Certains de ces outils sont largement utilisés en entreprises.
+
+\subsection{Systèmes de Gestion de Versions}
+
+Dès que plusieurs développeurs travaillent sur un même logiciel, le partage des modifications est l'une des premières difficultés rencontrées. On peut les décomposer en plusieurs problèmes :
+
+\begin{itemize}
+\item Chacun doit disposer de la dernière version du logiciel, afin de ne pas baser ses modifications sur un code qui n’est plus d’actualité.
+\item Si plusieurs personnes apportent des modifications différentes à leur copies respectives d’un même fichier, plus personne ne dispose d’une version incluant toutes les dernières modifications. Pour cela, il est nécessaire de créer une version fusionnant ces modifications.
+\item Parfois, plusieurs versions d’un même logiciel doivent coexister (par exemple, une version stable à laquelle ne sont apportées que des corrections de bugs, et une version de développement proposant de nouvelles fonctionnalités expérimentales). Cela peut rapidement devenir source de confusion.
+\item Suite à la découverte d’une régression (apparition d’un bug qui n’existait pas précédemment), il est important de déterminer exactement quelle modification a entraîné ce bug afin de pouvoir le corriger au plus vite.
+\end{itemize}
+
+Les outils de contrôle de version permettent de répondre à ces problèmes. Parmi ces logiciels, les deux qui sont le plus couramment utilisés sont SVN et Git. Bien que leur fonctionnements internes soient fondamentalement différents, ils offrent des fonctionnalité similaires :
+
+\begin{itemize}
+\item Regroupement d’un ensemble de modifications en unités atomiques (baptisées « révisions » par SVN et « commits » par Git)
+\item Publication de ces modifications
+\item Accès aux informations utiles concernant chaque modification (auteur, date, différences ligne à ligne)
+\item Fusionnement (« merge ») automatique des modifications à un même fichier, lorsque c’est possible
+\item Création de « branches », permettant d’isoler plusieurs versions divergentes
+\item Possibilité de retourner à n’importe quel état antérieur
+\end{itemize}
+
+Ces fonctionnalités permettent de répondre aux problèmes formulés ci-dessus.
+
+\subsection{Rapport de bugs et gestion des feuilles de route}
+
+Un logiciel est destiné à évoluer constamment. De nouveaux bugs sont découverts, et le client demande de nouvelles fonctionnalités. Une gestion de projet efficace nécessite d’identifier ces différentes tâches (qu’il s’agisse de corrections ou d’évolutions), d’en estimer le coût et d’y affecter des ressources humaines et matérielles. Il existe des outils prévus à cet effet, tels que Trac ou Redmine.
+
+Ces outils associe à chaque tâche un « ticket ». Chaque ticket peut être affecté à une ou plusieurs personnes, ce qui permet au chef de projet de suivre l’avancement global du projet ainsi que la répartition des tâches *via* une interface Web.
+
+Lorsque cela est souhaité, ces outils permettent à des personnes extérieures au projet de créer de nouveau tickets. Cette pratique est largement répandue dans les projets open-source, mais elle est également utilisée par certaines entreprises afin d’offrir au client un cadre formel pour effectuer des demandes.
+
+De plus, ces outils offrent une intégration avec les systèmes de gestion de versions. Il est par exemple possible d’afficher la liste des modifications se rapportant à un ticket donné, ou d’imposer des restrictions sur les modifications autorisées (par exemple, interdire à un développeur de publier des modifications relatives à un ticket auquel il n’est pas affecté).
+
+\subsection{Outils de contrôle de qualité du code}
+
+Tout développeur est capable d’écrire du code compréhensible pour l’ordinateur. Faire en sorte que ce code soit également compréhensible par les autres développeurs participant au projet est tout aussi important, mais peut s’avérer plus difficile. En effet, chacun a son propre style et ses idiosyncrasies auxquelles les autres ne sont pas habitués.
+
+C’est pourquoi il existe des \textit{conventions de code} - des ensembles de règles de programmation. Certaines sont des standards internationaux, d’autres des règles internes à une entreprise. Lorsque tous les participants à un projet comprennent et respectent les mêmes conventions de code, la compréhension mutuelle est grandement facilitée, ce qui à son tour facilite la collaboration.
+
+Ces conventions ne sont utiles que si elles sont appliquées, et vérifier cela manuellement serait laborieux. Heureusement, il existe des outils informatiques permettant de vérifier automatiquement le respect des conventions. Ces outils d’analyse du code ont généralement d’autres fonctionnalités, comme la détection d’erreurs de programmation potentielles.
+
+Une fois mis en place, ces outils permettent de détecter et de corriger au plus vite certains problèmes.
+
+\section{Conclusion}
+
+Ainsi, il existe de nombreux outils informatiques permettant de faciliter la collaboration. Cependant, aussi sophistiqués que soient ces outils, ils ne font pas tout. Le facteur humain reste primordial, et une bonne entente est nécessaire afin d’atteindre une synergie efficace entre les participants.
