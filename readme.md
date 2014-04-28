@@ -41,11 +41,11 @@ Sommaire
 Bibliographie
 -------------
 
-- *Livre sur les méthodes de travail collaboratif* ;
-- *Livre sur les méthodes agiles* ;
-- Extreme Programming Explained ;
-- The Git book ;
-- Le Mythe du Mois Homme.
+- [Le Mythe du Mois Homme](https://fr.wikipedia.org/wiki/Le_Mythe_du_mois-homme) - Frederick Brooks.
+- [Le Manifeste agile et ses 12 principes sous-jacents](http://agilemanifesto.org/iso/fr/) - 17 experts en informatique ;
+- [Extreme Programming Explained : Embrace Change](http://books.google.fr/books/about/Extreme_Programming_Explained.html?id=G8EL4H4vf7UC&redir_esc=y) - Kent Beck & Cynthia Andres ;
+- [ERP et conduite des changements](http://www.eyrolles.com/Informatique/Livre/erp-et-conduite-des-changements-9782100557486) - Jean-Louis Tomas & Yossi Gal ;
+- [Pro Git](http://git-scm.com/book) - Scott Chacon ;
 
 ----------------------------------------------------------------------------------------------------
 
