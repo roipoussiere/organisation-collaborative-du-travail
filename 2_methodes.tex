@@ -15,19 +15,13 @@ Il existe de nombreux modèles de gestion de projet dans le milieu industriel. N
 
 En gestion de projet, il est important de considérer les erreurs comme faisant partie intégrante d'un projet (\textit{Errare Humanum est}). Dans l'industrie en général, plus un problème est détecté tôt, plus il sera facile de le corriger et moins grande en seront les conséquences (effets de bord). Ainsi, pendant le développement d'un produit, l'objectif n'est pas tant de limiter les erreurs, mais davantage de parvenir à les détecter le plus tôt possible.
 
-Le cycle en V est devenu un standard de l'industrie logicielle et dans les autres domaines de l'industrie en général.
-
-Le cycle en V est un modèle de gestion de projet permettant de limiter ces effets de bord, en découpant la réalisation d'un projet en plusieurs étapes de manière séquentielle.
+Le cycle en V est devenu un standard de l'industrie logicielle et dans les autres domaines de l'industrie en général. C'est un modèle de gestion de projet permettant de limiter ces effets de bord, en découpant la réalisation d'un projet en plusieurs étapes de manière séquentielle.
 
 Le cycle en V comporte 3 phases : Conception, Développement et Tests. Chacune de ces phases peut comprendre plusieurs étapes.
 
 On peut noter une correspondances entre les étapes situées sur le même niveau : par exemple, si il existe un problème lors d'un test d'intégration, cela va affecter la conception architecturale \figref{cycle_v}. \\
 
-\begin{figure}[h]
-   \caption{\label{cycle_v} Schéma du cycle en V}
-   \includegraphics[width=15cm]{img/cycle_en_v.png}
-\end{figure}
-
+\fig{img/cycle_en_v.png}{cycle_v}{Schéma du cycle en V}
 
 \begin{itemize}
 \item \textbf{La phase de conception}
@@ -80,7 +74,7 @@ La méthode du cycle en V, bien qu'elle soit intéressante d'un point de vue th�
 \item Il est courant que le client change d'avis pendant la réalisation 
 d'un projet. Avec le modèle du cycle en V, un tel changement impactera toutes les étapes de conception, de développement et de tests, ce qui a une forte incidence sur le coût du projet.
 
-\item Enfin, le problème le plus important du cycle en V est l'effet dit \textbf{Tunnel}. En effet, le client n'a aucune visibilité sur le projet pendant sa réalisation : il est sollicité uniquement au début (pour l'analyse des besoins) et à la fin (pour la recette). Ainsi, si une confusion apparait sur le cahier des charges, le client s'en apercevra uniquement pendant la recette. En prenant également en compte les confusions pouvant exister entre les différentes étapes de conception, le client peut se retrouver face à un produit ne correspondant pas du tout à ses attentes.\\
+\item Enfin, le problème le plus important du cycle en V est l'effet dit \textbf{Tunnel}. En effet, le client n'a aucune visibilité sur le projet pendant sa réalisation : il est sollicité uniquement au début (pour l'analyse des besoins) et à la fin (pour la recette). Ainsi, si une confusion apparaît sur le cahier des charges, le client s'en apercevra uniquement pendant la recette. En prenant également en compte les confusions pouvant exister entre les différentes étapes de conception, le client peut se retrouver face à un produit ne correspondant pas du tout à ses attentes.\\
 
 \end{itemize}
 
@@ -88,10 +82,7 @@ Ainsi, l'industrie informatique a parfois connu des scénarios catastrophiques e
 
 Les méthodes agiles, apparues dans les années 1990, sont un groupe de pratiques de développement de projets informatiques reposant sur un même philosophie.
 
-\begin{figure}[h]
-   \caption{\label{schema_agile}Schéma du circuit agile}
-   \includegraphics[width=15cm]{img/agiles.jpg}
-\end{figure}
+\fig{img/agiles.jpg}{schema_agile}{Schéma du circuit agile}
 
 Elles consistent à développer le produit de manière \textbf{itérative, incrémentale et adaptative} \figref{schema_agile}. Les fonctionnalités sont développées les unes après les autres, les plus importantes en premier. Le client est sollicité régulièrement afin de vérifier la conformité entre ses attentes avec ce qui a été développé.
 
@@ -100,8 +91,7 @@ Le manifeste Agile \appref{manifeste_agile} définit les méthodes agiles par ce
 Extrait de \textit{Agile Manifesto}
 
 \begin{Quote}
-Nous découvrons comment mieux développer des logiciels
-par la pratique et en aidant les autres à le faire.
+Nous découvrons comment mieux développer des logiciels par la pratique et en aidant les autres à le faire.
 Ces expériences nous ont amenés à valoriser :
 
 \begin{itemize}
@@ -111,8 +101,7 @@ Ces expériences nous ont amenés à valoriser :
 \item \textbf{L’adaptation au changement}, plus que le suivi d’un plan
 \end{itemize}
 
-Nous reconnaissons la valeur des seconds éléments,
-mais privilégions les premiers.
+Nous reconnaissons la valeur des seconds éléments, mais privilégions les premiers.
 \end{Quote}
 
 En outre, les méthodes agiles permettent :
@@ -127,16 +116,20 @@ Il existe plusieurs méthodes Agiles, qui ont leurs propres spécifications et q
 
 \subsubsection{La méthode Scrum}
 
-Le terme \textit{Scrum} (signifiant « mêlée ») provient du rugby à XV, sport qui a pour objectif d'atteindre un but grace à une équipe soudée.
-Le projet est découpé en plusieurs phases appelées \textit{sprints}, pendant lesquelles l'équipe a comme objectif de développer un ensemble précis de fonctionnalités. À la fin de chaque sprint, l'équipe se retrouve pour une réunion appelée *revue de sprint*, pendant laquelle les membres valident ensemble les fonctionnalités développées et préparent celles du prochain sprint.
+Le terme \textit{Scrum} (signifiant « mêlée ») provient du rugby à XV, sport qui a pour objectif d'atteindre un but grâce à une équipe soudée.
+Le projet est découpé en plusieurs phases appelées \textit{sprints}, d'une durée d'environ un mois, pendant lesquelles l'équipe a comme objectif de développer un ensemble précis de fonctionnalités.
+Au début du sprint, l'équipe se rassemble pour une \textit{réunion de planification de sprint}, pendant laquelle l'équipe cherche à prévoir ce qui sera développé durant le prochain sprint et sur la manière dont ses membres atteindront cet objectif.
+À la fin du sprint, l'équipe se retrouve pour une réunion appelée \textit{revue de sprint}, pour valider ensemble les fonctionnalités développées.
+Pour davantage de dynamisme, la mêlée quotidienne (Daily Scrum) permet également aux développeurs de faire un point de coordination d'environ 15 minutes sur les tâches en cours et sur les difficultés rencontrées.
 
-Les fonctionnalités sont souvent représentées physiquement au moyen de *Post-its* à coller sur un tableau composé de trois colonnes correspondant à leur état d'avancement : \textit{à faire}, \textit{en cours} et \textit{réalisé}. Au sein de l'équipe, une personne désignée \textit{ScrumMaster} a la charge de motiver l'équipe, de vérifier les tâches développées et proposer celles du prochain sprint, ainsi que de former le directeur de produit et l'équipe à la méthode Scrum. Ce statut n'a aucune signification hierarchique et un nouveau ScrumMaster peut être désigné à chaque sprint.
+Les fonctionnalités sont souvent représentées physiquement au moyen de \textit{Post-its} à coller sur un tableau composé de trois colonnes correspondant à leur état d'avancement : \textit{à faire}, \textit{en cours} et \textit{réalisé}. Au sein de l'équipe, une personne désignée \textit{ScrumMaster} a la charge de motiver l'équipe, de vérifier les tâches développées et proposer celles du prochain sprint, ainsi que de former le directeur de produit et l'équipe à la méthode Scrum. Ce statut n'a aucune signification hiérarchique et un nouveau ScrumMaster peut être désigné à chaque sprint.
 
 Cette méthode facilite le dynamisme et le travail d'équipe, elle est adaptée aux projets qui peuvent évoluer.
 
-\textbf{en quoi cette méthode répond t elle au besoin d'evolutivité des projets ?}
+Elle répond aux besoins d'évolution des projets car le client teste régulièrement la partie fonctionnelle du produit et en donne son avis au minimum à chaque sprint : ainsi il met en avant les problèmes et les amélioration attendues de manière régulière.
 
 \subsubsection{La méthode XP (Extreme programming)}
+
 
 La méthode XP consiste en différents principes à appliquer pendant la réalisation d'un projet. Ces derniers existent depuis de nombreuses années, toutefois ils sont ici poussés à l'extrême :
 
@@ -152,12 +145,38 @@ Extrait de \textit{Extreme Programming Explained}
 \item puisque les besoins évoluent vite, nous ferons des cycles de développement très rapides pour nous adapter au changement.
 \end{itemize}
 \end{Quote}
-Cette méthode est adaptée aux équipes réduites avec des besoins qui peuvent évoluer.
+
+Cette méthode repose sur des cycles de développement rapides, elle est adaptée aux équipes réduites avec des besoins qui peuvent évoluer.
 
 \section{Critères de choix}
 
 \subsection{Rapport avec le client}
+
 \subsection{Préférences au sein de l'entreprise}
+
+\section{Application}
+
+\subsection{Le cas de GFI Informatique}
+
+L'entreprise GFI comprend un Service Qualité. Son but est de contrôler chaque livraison au quotidien afin de déterminer si les règles de qualité sont appliquées au sein de chaque projet. Par ailleurs elle met en place des plans et des processus à appliquer, de manière à harmoniser les différents projets GFI.
+
+Une norme qualité est souvent nécessaire pour répondre aux appels d'offre, la plus utilisée étant la CAGR 3.1.
+
+Ces méthodes et usages imposés varient en fonction du client. Dans le cas d'Airbus, elles varient même en fonction du service, car chacun a différentes exigences : un projet industriel, dont le code sera intégré à l'avion, mettra en application des processus assez lourds, avec une documentation importante, de nombreux tests et procédés de validation, tandis qu'un projet de recherche sera bien plus léger.
+
+Les méthodes et normes de développement sont souvent impactées par le cycle de vie du logiciel et l'incidence qu'entraînera une éventuelle anomalie.
+
+Pour un grand nombre d'application, comme les logiciels bureautiques ou les jeux vidéos, le logiciel sera en service quelques années avant que le client passe a la version supérieure. D'autre part un bug aura un effet indésirable pour client mais n'aura pas une grande incidence.
+
+En revanche, l'aéronautique est un secteur assez particulier puisque d'une part une anomalie informatique peut avoir d'importantes conséquences (jusqu'au crash d'un avion), d'autre part le cycle de vie est très long : la conception elle-même de l'avion peut prendre de nombreuses années, et l'avion sera en service encore pendant plusieurs décennies.
+
+Exceptions :
+
+Une \gls{ESN} doit s'adapter aux clients. Si celui-ci n'impose aucune méthode ou norme à appliquer, elles sont décidées par GFI au cas par cas et dans ce cas ne comportent pas de Service Qualité.
+
+Pour les équipes de recherche, qui ne se conforment pas à ces normes et dont les projets ne comportent pas de Service Qualité. En effet le code fournit par ces équipe a pour objectif de valider la conception et le fonctionnement d'un produit et obtenir un résultat au plus vite. Il ne sera pas intégré à l'application, mais sera repris par une autre équipe, qui développera la version industrielle en respectant les normes en vigueur.
+
+\subsection{Le cas de Ineo}
 
 \section{Conclusion}
 
