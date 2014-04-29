@@ -7,7 +7,7 @@ Rapport rédigé en latex. Pour installer pdflatex :
 
 Pour compiler le document pdf :
 
-	cd latex pdflatex main.tex && makeindex main.glo -s main.ist -t main.glg -o main.gls && pdflatex main.tex && mv main.pdf ../dossier.pdf && rm *.toc *.glo *.out *.aux *.ist *.sty *.log && cd ..
+	sh compile.sh
 
 ou via [writelatex](https://www.writelatex.com/1006950hmfzvd).
 

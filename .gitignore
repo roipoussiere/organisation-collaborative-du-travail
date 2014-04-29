@@ -3,5 +3,6 @@
 *.out
 *.aux
 *.ist
-*.sty
 *.log
+*.glg
+*.gls
