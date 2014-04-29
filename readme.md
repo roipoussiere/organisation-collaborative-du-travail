@@ -1,13 +1,11 @@
-Organisation collaborative du travail
-=====================================
-
 TODO-list
 =========
 
 - **Général**
 	- Introduction ;
 	- Conclusion ;
-	- Importance d'apporter un regard critique sur l'ensemble du dossier.
+	- Importance d'apporter un regard critique sur l'ensemble du dossier ;
+	- Mise en page : résoudre bug haut de page qui se supperposent.
 
 - **Enjeux**
 	- Citation *Le mythe du mois homme* ;
@@ -27,25 +25,25 @@ Répartition du travail
 - Introduction : Nathanaël et Victor
 
 1. Enjeux
-	1.1 Victor
-	1.2 Nathanaël
-	1.3 Nathanaël
-	1.4 Victor
-	1.5 GFI : Nathanaël, Ineo : Victor
-	1.6 Victor
+    1. Victor
+    2. Nathanaël
+    3. Nathanaël
+    4. Victor
+    5. GFI : Nathanaël, Ineo : Victor
+    6. Victor
 
 2. Méthodes
-	2.1 Nathanaël
-	2.2 Victor
-	2.3 GFI : Nathanaël, Ineo : Victor
-	2.4 Nathanaël
+	1. Nathanaël
+	2. Victor
+	3. GFI : Nathanaël, Ineo : Victor
+	4. Nathanaël
 
 3. Outils
-	3.1 Nathanaël
-	3.2 Victor
-	3.3 Nathanaël
-	3.4 GFI : Nathanaël, Ineo : Victor
-	3.5 Victor
+	1. Nathanaël
+	2. Victor
+	3. Nathanaël
+	4. GFI : Nathanaël, Ineo : Victor
+	5. Victor
 
 - Conclusion : Nathanaël et Victor
 
