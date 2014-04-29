@@ -13,7 +13,7 @@ Il existe de nombreux modèles de gestion de projet dans le milieu industriel. N
 
 \subsection{Le cycle en V}
 
-En gestion de projet, il est important de considérer les erreurs comme faisant partie intégrante d'un projet (*Errare Humanum est*). Dans l'industrie en général, plus un problème est détecté tôt, plus il sera facile de le corriger et moins grande en seront les conséquences (effets de bord). Ainsi, pendant le développement d'un produit, l'objectif n'est pas tant de limiter les erreurs, mais davantage de parvenir à les détecter le plus tôt possible.
+En gestion de projet, il est important de considérer les erreurs comme faisant partie intégrante d'un projet (\textit{Errare Humanum est}). Dans l'industrie en général, plus un problème est détecté tôt, plus il sera facile de le corriger et moins grande en seront les conséquences (effets de bord). Ainsi, pendant le développement d'un produit, l'objectif n'est pas tant de limiter les erreurs, mais davantage de parvenir à les détecter le plus tôt possible.
 
 Le cycle en V est devenu un standard de l'industrie logicielle et dans les autres domaines de l'industrie en général.
 
@@ -21,10 +21,10 @@ Le cycle en V est un modèle de gestion de projet permettant de limiter ces effe
 
 Le cycle en V comporte 3 phases : Conception, Développement et Tests. Chacune de ces phases peut comprendre plusieurs étapes.
 
-On peut noter une correspondances entre les étapes situées sur le même niveau : par exemple, si il existe un problème lors d'un test d'intégration, cela va affecter la conception architecturale. \\
+On peut noter une correspondances entre les étapes situées sur le même niveau : par exemple, si il existe un problème lors d'un test d'intégration, cela va affecter la conception architecturale \figref{cycle_v}. \\
 
 \begin{figure}[h]
-   \caption{Schéma du cycle en V}
+   \caption{\label{cycle_v} Schéma du cycle en V}
    \includegraphics[width=15cm]{img/cycle_en_v.png}
 \end{figure}
 
@@ -40,7 +40,6 @@ On peut noter une correspondances entre les étapes situées sur le même niveau
 \end{itemize}
 
 Les étapes de la phases de conception commencent par une approche très globale du projet, et augmentent progressivement le niveau de détail jusqu'à la phase de codage. Chaque étape de conception s'appuie sur l'étape précédente. \\
-
 
 \item \textbf{La phase de développement logiciel (codage)}
 Il s'agit du développement du produit, qui s'appuie sur la conception détaillée. \\
@@ -89,7 +88,32 @@ Ainsi, l'industrie informatique a parfois connu des scénarios catastrophiques e
 
 Les méthodes agiles, apparues dans les années 1990, sont un groupe de pratiques de développement de projets informatiques reposant sur un même philosophie.
 
-Elles consistent à développer le produit de manière \textbf{itérative, incrémentale et adaptative}. Les fonctionnalités sont développées les unes après les autres, les plus importantes en premier. Le client est sollicité régulièrement afin de vérifier la conformité entre ses attentes avec ce qui a été développé.
+\begin{figure}[h]
+   \caption{\label{schema_agile}Schéma du circuit agile}
+   \includegraphics[width=15cm]{img/agiles.jpg}
+\end{figure}
+
+Elles consistent à développer le produit de manière \textbf{itérative, incrémentale et adaptative} \figref{schema_agile}. Les fonctionnalités sont développées les unes après les autres, les plus importantes en premier. Le client est sollicité régulièrement afin de vérifier la conformité entre ses attentes avec ce qui a été développé.
+
+Le manifeste Agile \appref{manifeste_agile} définit les méthodes agiles par ces quelques principes :\\
+
+Extrait de \textit{Agile Manifesto}
+
+\begin{Quote}
+Nous découvrons comment mieux développer des logiciels
+par la pratique et en aidant les autres à le faire.
+Ces expériences nous ont amenés à valoriser :
+
+\begin{itemize}
+\item \textbf{Les individus et leurs interactions}, plus que les processus et les outils ;
+\item \textbf{Des logiciels opérationnels}, plus qu’une documentation exhaustive ;
+\item \textbf{La collaboration avec les clients}, plus que la négociation contractuelle ;
+\item \textbf{L’adaptation au changement}, plus que le suivi d’un plan
+\end{itemize}
+
+Nous reconnaissons la valeur des seconds éléments,
+mais privilégions les premiers.
+\end{Quote}
 
 En outre, les méthodes agiles permettent :
 
@@ -99,29 +123,25 @@ En outre, les méthodes agiles permettent :
 \item d'obtenir un produit partiellement fonctionnel, quelque soit l'état d'avancement du projet.
 \end{itemize}
 
-\begin{figure}[h]
-   \caption{Schéma du circuit agile}
-   \includegraphics[width=15cm]{img/agiles.jpg}
-\end{figure}
-
 Il existe plusieurs méthodes Agiles, qui ont leurs propres spécifications et qui doivent être adaptées en fonction du contexte. Ainsi, il ne suffit pas de choisir de développer un projet au moyen des méthodes agiles, il faut également se pencher sur la méthode à adopter. Parmi les plus connues, on retrouve :
 
 \subsubsection{La méthode Scrum}
 
-Le terme *Scrum* (signifiant « mêlée ») provient du rugby à XV, sport qui a pour objectif d'atteindre un but grace à une équipe soudée.
-Le projet est découpé en plusieurs phases appelées *sprints*, pendant lesquelles l'équipe a comme objectif de développer un ensemble précis de fonctionnalités. À la fin de chaque sprint, l'équipe se retrouve pour une réunion appelée *revue de sprint*, pendant laquelle les membres valident ensemble les fonctionnalités développées et préparent celles du prochain sprint.
+Le terme \textit{Scrum} (signifiant « mêlée ») provient du rugby à XV, sport qui a pour objectif d'atteindre un but grace à une équipe soudée.
+Le projet est découpé en plusieurs phases appelées \textit{sprints}, pendant lesquelles l'équipe a comme objectif de développer un ensemble précis de fonctionnalités. À la fin de chaque sprint, l'équipe se retrouve pour une réunion appelée *revue de sprint*, pendant laquelle les membres valident ensemble les fonctionnalités développées et préparent celles du prochain sprint.
 
-Les fonctionnalités sont souvent représentées physiquement au moyen de *Post-its* à coller sur un tableau composé de trois colonnes correspondant à leur état d'avancement : *à faire*, *en cours* et *réalisé*. Au sein de l'équipe, une personne désignée *ScrumMaster* a la charge de motiver l'équipe, de vérifier les tâches développées et proposer celles du prochain sprint, ainsi que de former le directeur de produit et l'équipe à la méthode Scrum. Ce statut n'a aucune signification hierarchique et un nouveau ScrumMaster peut être désigné à chaque sprint.
+Les fonctionnalités sont souvent représentées physiquement au moyen de *Post-its* à coller sur un tableau composé de trois colonnes correspondant à leur état d'avancement : \textit{à faire}, \textit{en cours} et \textit{réalisé}. Au sein de l'équipe, une personne désignée \textit{ScrumMaster} a la charge de motiver l'équipe, de vérifier les tâches développées et proposer celles du prochain sprint, ainsi que de former le directeur de produit et l'équipe à la méthode Scrum. Ce statut n'a aucune signification hierarchique et un nouveau ScrumMaster peut être désigné à chaque sprint.
 
 Cette méthode facilite le dynamisme et le travail d'équipe, elle est adaptée aux projets qui peuvent évoluer.
-{en quoi cette méthode répond t elle au besoin d'evolutivité des projets ?}
+
+\textbf{en quoi cette méthode répond t elle au besoin d'evolutivité des projets ?}
 
 \subsubsection{La méthode XP (Extreme programming)}
 
 La méthode XP consiste en différents principes à appliquer pendant la réalisation d'un projet. Ces derniers existent depuis de nombreuses années, toutefois ils sont ici poussés à l'extrême :
 
-Extrait de \textit{Extreme Programming Explained} :
-\begin{italicquotes}
+Extrait de \textit{Extreme Programming Explained}
+\begin{Quote}
 \begin{itemize}
 \item Puisque la revue de code est une bonne pratique, elle sera faite en permanence (par un binôme) ;
 \item puisque les tests sont utiles, ils seront faits systématiquement avant chaque mise en œuvre ;
@@ -131,7 +151,7 @@ Extrait de \textit{Extreme Programming Explained} :
 \item puisque l'intégration des modifications est cruciale, nous l'effectuerons plusieurs fois par jour ;
 \item puisque les besoins évoluent vite, nous ferons des cycles de développement très rapides pour nous adapter au changement.
 \end{itemize}
-\end{italicquotes}
+\end{Quote}
 Cette méthode est adaptée aux équipes réduites avec des besoins qui peuvent évoluer.
 
 \section{Critères de choix}
