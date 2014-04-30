@@ -1,3 +1,10 @@
+Dates
+=====
+
+- 12 mai à 18h30 : Réunion Skype avec tutrice ;
+- 16 mai à 12h30 : Réunion avec tutrice à son cabinet (Jolimont) ;
+- 19 mai à 11h : Soutenance
+
 TODO-list
 =========
 
@@ -5,6 +12,8 @@ TODO-list
 	- Introduction ;
 	- Conclusion ;
 	- Importance d'apporter un regard critique sur l'ensemble du dossier ;
+	- Veiller à faire un lien entre chaque partie, qu'elles ne soient pas isolées ;
+	- Travailler les transitions ;
 	- Mise en page : résoudre bug haut de page qui se supperposent.
 
 - **Enjeux**
