@@ -15,13 +15,16 @@
 \usepackage[francais]{babel} % langue
 \makeglossaries
 
+% utiliser nom d'auteur dans document
+\let\Author\@author
+
 % Paramètres des en-tête et pied de page
 \renewcommand{\@chapapp}{Partie}
 \renewcommand\headrulewidth{1pt}
 \renewcommand\footrulewidth{1pt}
 \fancyhead[L]{\leftmark}
-\fancyhead[R]{\rightmark}
-\fancyfoot[R]{Nathanaël Jourdane et Victor Adam}
+\fancyhead[R]{}
+\fancyfoot[R]{\Author}
 \fancyfoot[C]{\thepage/\pageref{LastPage}}
 
 % Références
@@ -30,8 +33,20 @@
 
 % Citations
 \newenvironment{Quote}
-{\begin{quote}\itshape}
+{\begin{quote}\fontfamily{pzc}\selectfont}
 {\end{quote}}  
+
+% cas d'application
+\newenvironment{app}
+{\vspace{10 mm}
+\begin{minipage}[c]{0.9\textwidth}
+	\begin{wrapfigure}{l}{0.07\textwidth}
+		\includegraphics[width=0.07\textwidth]{company_icon.png}\vspace{-30pt}
+	\end{wrapfigure}
+	\fontfamily{ppl}\selectfont
+	\subsubsection{Cas d'application} }
+	{\vspace{10 mm}
+\end{minipage}}  
 
 % images
 \newcommand{\fig}[3]{
