@@ -38,21 +38,31 @@
 
 % cas d'application
 \newenvironment{app}
-{\vspace{10 mm}
-\begin{minipage}[c]{0.9\textwidth}
+{
+	\vspace{10 mm}
+	\begin{minipage}[c]{0.9\textwidth}
 	\begin{wrapfigure}{l}{0.07\textwidth}
-		\includegraphics[width=0.07\textwidth]{company_icon.png}\vspace{-30pt}
+		\includegraphics[width=0.07\textwidth]{company_icon.png}\vspace{-10pt}
 	\end{wrapfigure}
 	\fontfamily{ppl}\selectfont
-	\subsubsection{Cas d'application} }
-	{\vspace{10 mm}
-\end{minipage}}  
+	\par\noindent\raisebox{.8ex}{\makebox[\linewidth]{\hrulefill\hspace{1ex}\raisebox{-.8ex}{\textbf{Retour d'expérience}}\hspace{1ex}\hrulefill}}
+} {
+	\vspace{10 mm}
+	\end{minipage}
+}  
 
 % images
-\newcommand{\fig}[3]{
+\newcommand{\fig}[4]{
 \begin{figure}[h]
+   \begin{center} \includegraphics[width=15cm]{#1} \end{center}
    \caption{\label{#2}#3}
-   \includegraphics[width=15cm]{#1}
+\end{figure}}
+
+% images
+\newcommand{\smallfig}[4]{
+\begin{figure}[h]
+   \begin{center} \includegraphics[width=7cm]{#1} \end{center}
+   \caption{\label{#2}#3}
 \end{figure}}
 
 % Profondeur de la table des matières
