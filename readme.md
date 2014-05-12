@@ -1,3 +1,8 @@
+Divers
+=====
+
+- Présentation projet = 20min
+
 Dates
 =====
 
