@@ -4,11 +4,19 @@ L'organisation d'un projet passe tout d'abord par une méthode de travail à app
 
 \section{Méthodes appliquées à l'informatique}
 
-Il existe de nombreux modèles de gestion de projet dans le milieu industriel. Nous allons ici nous pencher sur deux méthodes de travail : le cycle en V et les méthodes Agiles.
+Il existe de nombreux modèles de gestion de projet dans le milieu industriel. Nous allons nous pencher dans ce chapitre sur les méthodes de travail les plus utilisées dans les projets informatiques : le cycle en V et les méthodes Agiles.
 
 \subsection{Le cycle en V}
 
-En gestion de projet, il est important de considérer les erreurs comme faisant partie intégrante d'un projet (\textit{Errare Humanum est}). Dans l'industrie en général, plus un problème est détecté tôt, plus il sera facile de le corriger et moins grande en seront les conséquences (effets de bord). Ainsi, pendant le développement d'un produit, l'objectif n'est pas tant de limiter les erreurs, mais davantage de parvenir à les détecter le plus tôt possible.
+En gestion de projet, il est important de considérer les erreurs comme faisant partie intégrante d'un projet (\textit{Errare Humanum est}). Dans l'industrie en général, dans le cycle de développement d'un produit, plus un problème est détecté tôt, plus il sera facile de le corriger et moins grandes en seront les conséquences. Ces conséquences, appelées effets de bord, sont dues :
+
+\begin{itemize}
+\item à la difficulté de détecter la nature du problème lorsque le produit approche de la phase opérationnelle ;
+\item au coût qu'engendrera les retours en phase de développement ;
+\item au coût des tâches développées après la découverte du problème qui seront éventuellement à retravailler.
+\end{itemize}
+
+Ainsi, pendant le développement d'un produit, l'objectif n'est pas tant de limiter les erreurs, mais davantage de parvenir à les détecter le plus tôt possible \expref{rxp_tests}.\\
 
 Le cycle en V est devenu un standard de l'industrie logicielle et dans les autres domaines de l'industrie en général. C'est un modèle de gestion de projet permettant de limiter ces effets de bord, en découpant la réalisation d'un projet en plusieurs étapes de manière séquentielle.
 
@@ -45,6 +53,19 @@ Il s'agit du développement du produit, qui s'appuie sur la conception détaill�
 \end{itemize}
 
 Les tests sont des étapes très importantes dans la réalisation d'un produit, car c'est ce qui permet de valider leur bon fonctionnement et la conformité aux attentes du client. Ils commencent par un niveau de détail élevé, puis offrent une vue de plus en plus globale sur le produit final.
+
+En outre, des expériences nous ont montrés les catastrophes sont souvent déclenchées suite à plusieurs erreurs survenant en même temps. Il est donc d'usage de prendre en compte le cas le plus défavorable lors de ces tests, en ce basant notamment sur la loi de Murphy : \textit{Tout ce qui peut mal tourner va mal tourner}.
+
+\begin{app} \label{rxp_tests}
+Lorsque l'entreprise GFI traite avec son client principal Airbus, elle a bien conscience de l'importance des phases de tests dans le secteur de l'aéronautique. Lorsque une anomalie se glisse dans le code, on peut en effet analyser différents scénarios :
+\begin{itemize}
+\item L'erreur est détectée pendant la \textbf{phase de tests unitaires} : incidence presque nulle, puisque ces tests sont exécutés de manière automatique, très régulièrement et effectués de manière très ciblée.
+\item L'erreur est détectée pendant la \textbf{phase de tests d'intégration} : il y a en conséquence une légère agitation puisque il faut analyser la provenance de l'erreur, puis la transmettre à la personne ayant développé la portion de code responsable.
+\item L'erreur est détectée pendant la \textbf{phase de tests d'intégration} : elle est encore plus difficile à dénicher puisque c'est le programme complet qui est testé. Les précédents tests seront à effectuer de nouveau et une partie du code sera à réécrire.
+\item L'erreur est détectée \textbf{après la recette} : Airbus devra alors rapatrier tous les avions concernés et démonter certains composants afin d'effectuer un mise à jour du logiciel.
+\item L'erreur n'est \textbf{pas détectée} : En fonction de la nature de l'erreur et du moment où elle apparait, cela peut entraîner le crash de l'avion.
+\end{itemize}
+\end{app}
 
 Pour la réalisation d'un projet informatique, ce modèle de gestion de projet à l'avantage de prévoir et de quantifier les besoins, de choisir l'architecture logicielle à adopter, de penser à l'intégration des différentes fonctionnalités, avant de commencer son développement. Cela permet notamment d'anticiper certains problèmes de conception pouvant survenir pendant la phase de codage, et donc de réduire développement de fonctionnalités inadaptées.
 
