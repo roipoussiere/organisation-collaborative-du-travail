@@ -7,7 +7,7 @@ Dates
 =====
 
 - 12 mai à 18h30 : Réunion Skype avec tutrice ;
-- 16 mai à 12h30 : Réunion avec tutrice à son cabinet (Jolimont) ;
+- 16 mai à 12h30 : Réunion avec tutrice à son cabinet, 95 chemin de Gabardie, Balma-Gramont.
 - 19 mai à 11h : Soutenance
 
 TODO-list
