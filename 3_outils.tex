@@ -4,7 +4,9 @@
 
 \section{La gestion de l'information}
 
-Dans la plupart des entreprises et spécifiquement pour les entreprises de l'informatique, la majeure partie des employés travaillent avec un ordinateur personnel, chacun pouvant stocker des informations nécessaires aux projets réalisés. On peut alors s'interroger sur la manière dont sont entreposées et partagées ces données au sein de l'entreprise, afin de veiller à une bonne collaboration dans le système d'information. En outre on note plusieurs difficultés, notamment :
+Dans la plupart des entreprises et spécifiquement pour les entreprises de l'informatique, la majeure partie des employés travaillent avec un ordinateur personnel, chacun pouvant stocker des informations nécessaires aux projets réalisés. On peut alors s'interroger sur la manière dont sont entreposées et partagées ces données au sein de l'entreprise, afin de veiller à une bonne collaboration dans le système d'information.\\
+
+En outre on note plusieurs difficultés, notamment :
 
 \begin{itemize}
 \item une personne peut avoir du mal à trouver la version la plus à jour d'un document ;
@@ -16,7 +18,7 @@ Ces problématiques de stockage et de partage existaient d'ailleurs bien avant l
 
 \subsection{Coté logiciel}
 
-Un \gls{PGI} \footnote{PGI : aussi appelé ERP, de l'anglais Enterprise Resource Planning.} , est une solution logicielle regroupant différents outils ayant pour but d'assister les différents pôles de l'entreprise (production, conception, vente, etc). Il permet une gestion globale et simplifiée, via un support organisationnel unique pour toute l'entreprise. L'usage d'une base de données \footnote{base de données : Conteneur informatique dans lequel est stocké de manière structurée l'intégralité des informations en rapport avec une activité.} commune facilite grandement la gestion des différents domaines de gestion de l'entreprise.
+Un \gls{PGI} \footnote{PGI : aussi appelé ERP, de l'anglais Enterprise Resource Planning.} , est une solution logicielle regroupant différents outils ayant pour but d'assister les différents pôles de l'entreprise (production, conception, vente, etc). Il permet une gestion globale et simplifiée, via un support organisationnel unique pour toute l'entreprise. L'usage d'une base de données \footnote{Base de données : Conteneur informatique dans lequel est stocké de manière structurée l'intégralité des informations en rapport avec une activité.} commune facilite grandement la gestion des différents domaines de gestion de l'entreprise.
 
 Jean-Louis Thomas et Yossi Gal, dans leur introduction de leur livre \textit{ERP et Conduite des changements}, définissent ce progiciel \footnote{Progiciel (mot-valise, contraction de produit et logiciel) : il s'agit d'un logiciel  générique prévu pour répondre à des besoins ordinaires, en opposition aux logiciels développés pour un besoin spécifique.} ainsi :
 
@@ -53,7 +55,7 @@ Il faut également noter que la problématique de la gestion de l'information ne
 
 L'une ou l'autre de ces solutions seront sélectionnées en fonction de la taille, du secteur d'activité et des choix stratégiques de l'entreprise.
 
-\smallfig{img/server-network.jpg}{erp}{Représentation simplifiée de l'interconnexion d'un parc informatique via un data-centre.}
+\smallfig{img/network.png}{network}{Représentation simplifiée de l'interconnexion d'un parc informatique via un data-centre.}
 
 \begin{app}
 Dans l'entreprise GFI, l'information se situe essentiellement au niveau du code informatique et de divers dossiers (cahier des charges, documentation, etc.). La redondance d'information de code est évitée :
@@ -82,7 +84,7 @@ Dès que plusieurs développeurs travaillent sur un même logiciel, le partage d
 
 \fig{img/avant_vcs.png}{avant_vcs}{Représentation graphique des difficultés du développement logiciel.}
 
-Les outils de contrôle de version permettent de répondre à ces problèmes. Parmi ces logiciels, les deux qui sont le plus couramment utilisés sont SVN et Git. Bien que leur fonctionnements internes soient fondamentalement différents, ils offrent des fonctionnalité similaires :
+Les \gls{VCS} permettent de répondre à ces problèmes. Parmi ces logiciels, les deux qui sont le plus couramment utilisés sont SVN et Git. Bien que leur fonctionnements internes soient fondamentalement différents, ils offrent des fonctionnalité similaires :
 
 \begin{itemize}
 \item Regroupement d’un ensemble de modifications en unités atomiques (baptisées « révisions » par SVN et « commits » par Git)
@@ -109,7 +111,7 @@ De plus, ces outils offrent une intégration avec les systèmes de gestion de ve
 
 \subsection{Outils de contrôle de qualité du code}
 
-Tout développeur est capable d’écrire du code compréhensible pour l’ordinateur. Faire en sorte que ce code soit également compréhensible par les autres développeurs participant au projet est tout aussi important, mais peut s’avérer plus difficile. En effet, chacun a son propre style et ses idiosyncrasies auxquelles les autres ne sont pas habitués.
+Tout développeur est capable d’écrire du code compréhensible pour l’ordinateur. Faire en sorte que ce code soit également compréhensible par les autres développeurs participant au projet est tout aussi important, mais peut s’avérer plus difficile. En effet, chacun a son propre style et ses idiosyncrasies \footnote{Idiosyncrasies : Comportement particulier d'un individu face aux influences de divers agents extérieurs.} auxquelles les autres ne sont pas habitués.
 
 C’est pourquoi il existe des \textit{conventions de code} - des ensembles de règles de programmation. Certaines sont des standards internationaux, d’autres des règles internes à une entreprise. Lorsque tous les participants à un projet comprennent et respectent les mêmes conventions de code, la compréhension mutuelle est grandement facilitée, ce qui à son tour facilite la collaboration.
 
@@ -126,7 +128,11 @@ On peut citer avant-tout les outils classiques comme les mails et les messagerie
 Il y a ensuite des outils consacrés au développement informatique, qui servent aussi à la communication au sein du projet, tels que les programmes de rapport de bugs et de feuille de route. Comme vu précédemment, ils permettent au client de communiquer les éventuelles anomalies présentes sur le produit. En interne, ils permettent également au chef de projet de lister les différentes tâches à réaliser avant la livraison d'un produit.
 
 \begin{app}
-Dans l'entreprise GFI, certaines équipes possèdent le logiciel de gestion de feuille de route \textit{Mantis} en double exemplaire. L'un est consacré à l'usage original de ce produit (liste des tâches à réaliser), l'autre est utilisé comme outils de communication avec le client, qui peut alors lister les différents bugs détectés et améliorations à faire.
+Dans l'entreprise GFI, certaines équipes possèdent le logiciel de gestion de feuille de route \textit{Mantis} en double exemplaire :
+\begin{itemize}
+\item l'un est consacré à la communication interne, pour lister les tâches a effectuer ;
+\item l'autre est consacré à la communication avec le client, pour lister les différentes améliorations à faire.
+\end{itemize}
 \end{app}
 
 \section{La documentation}
@@ -149,7 +155,7 @@ Comme l'indique son nom elle est destinée aux utilisateurs du produit. Elle doi
 D'ailleurs, si le logiciel est conçu de manière suffisamment intuitive, l'utilisateur ne devrait pas avoir à lire cette documentation.
 
 \begin{app}
-L'entreprise GFI développe un logiciel de documentation pour Airbus, destiné a être intégré sur un ordinateur portable embarqué dans les avions. Celui-ci a pour unique utilité le stockage de la documentation de toutes les fonctions de l'avion. GFI accorde un grand intérêt à l'ergonomie de ce logiciel, car en cas d'urgence, chaque seconde compte et les pilotes d'avion devraient obtenir l'information voulue en un minimum de temps possible.
+L'entreprise GFI développe un logiciel de documentation pour Airbus, destiné a être intégré sur un ordinateur portable embarqué dans les avions. Celui-ci sert exclusivement au stockage de la documentation de toutes les fonctions de l'avion. GFI accorde un grand intérêt à l'ergonomie de ce logiciel, car en cas d'urgence, chaque seconde compte et les pilotes d'avion devraient obtenir l'information voulue en un minimum de temps possible.
 \end{app}
 
 Dans les grandes entreprises, la documentation technique se présente souvent en anglais, de manière à faciliter la collaboration entre les acteurs provenant des différents pays.
@@ -166,6 +172,14 @@ Microsoft Outlook est également utilisé, d'une part pour la communication par 
 
 Ainsi, il existe de nombreux outils informatiques permettant de faciliter la collaboration, nous on avons vu quelques-uns d'entre eux dans cette partie. Cependant, aussi sophistiqués que soient ces outils, ils ne garantissent pas une organisation collaborative du travail efficiente. Le facteur humain reste primordial, et une bonne entente est nécessaire afin d’atteindre une synergie efficace entre les participants.
 
+\begin{app}
+Dans l'entreprise GFI, les petits clients n'imposent généralement pas les méthodes : ils se contentent d'expliciter les objectifs attendus, qu'importe les moyens mis en œuvre pour y parvenir et c'est à l'entreprise de décider.
+
+En revanche, pour les clients plus important et principalement avec Airbus, le rapport de force entre le client et le fournisseur est inversé : les outils sont ici imposées. En effet, la taille importante du projet oblige le client à traiter avec plusieurs fournisseurs, d'autre part Airbus comporte également des équipes de développement en interne.
+\end{app}
+
+Le fait d'imposer ces outils constituent une difficulté et peuvent même être source de conflits au niveau des équipes de travail, qui ont chacune leurs préférences. Mais l'utilisation des mêmes méthodes et des mêmes outils par tous les acteurs du projet vise toutefois à simplifier l'organisation. Ainsi, ajouter des difficultés de manière locale peut s'avérer bénéfique de manière globale.
+
 On remarque ainsi que ce constat se rapproche de celui fait avec méthodes de travail dans la partie précédente. Certains outils modernes peuvent être en théorie très efficace, cela dit ils ne vont pas pour autant décupler la productivité de l'entreprise. D'autre part, comme pour les méthodes, l'appropriation des ces outils doit se faire avec beaucoup de réflexion car ils ne seront pas forcément adoptés de manière positive par tous les employés si cela bouscule des habitudes de travail.
 
-On peut convenir de la même manière que si un produit de présente pas de gros défauts, il n'est pas nécessairement primordial de passer a un produit plus moderne.
+On peut convenir de la même manière que si un outil de présente pas de gros défauts, il n'est pas nécessairement primordial de passer a un produit plus moderne.

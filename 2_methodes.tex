@@ -98,8 +98,6 @@ Ainsi, l'industrie informatique a parfois connu des scénarios catastrophiques e
 
 Les méthodes agiles, apparues dans les années 1990, sont un groupe de pratiques de développement de projets informatiques reposant sur un même philosophie.
 
-\fig{img/agiles.jpg}{schema_agile}{Schéma du circuit agile}
-
 Elles consistent à développer le produit de manière \textbf{itérative, incrémentale et adaptative} \figref{schema_agile}. Les fonctionnalités sont développées les unes après les autres, les plus importantes en premier. Le client est sollicité régulièrement afin de vérifier la conformité entre ses attentes avec ce qui a été développé.
 
 Le manifeste Agile \appref{manifeste_agile} définit les méthodes agiles par ces quelques principes :\\
@@ -147,6 +145,8 @@ Ce genre de méthode assez originale favorisent également la bonne ambiance au 
 À la fin du sprint, l'équipe se retrouve pour une réunion appelée \textit{revue de sprint}, pour valider ensemble les fonctionnalités développées.
 Pour davantage de dynamisme, la mêlée quotidienne (Daily Scrum) permet également aux développeurs de faire un point de coordination d'environ 15 minutes sur les tâches en cours et sur les difficultés rencontrées.
 
+\fig{img/scrum.jpg}{scrum}{Cycle de développement d'un produit au moyen de la méthode Scrum.}
+
 Les fonctionnalités sont souvent représentées physiquement au moyen de \textit{Post-its} à coller sur un tableau composé de trois colonnes correspondant à leur état d'avancement : \textit{à faire}, \textit{en cours} et \textit{réalisé}. Au sein de l'équipe, une personne désignée \textit{ScrumMaster} a la charge de motiver l'équipe, de vérifier les tâches développées et proposer celles du prochain sprint, ainsi que de former le directeur de produit et l'équipe à la méthode Scrum. Ce statut n'a aucune signification hiérarchique et un nouveau ScrumMaster peut être désigné à chaque sprint.
 
 \begin{app}
@@ -178,13 +178,9 @@ Cette méthode repose sur des cycles de développement rapides, elle est adapté
 \\
 Nous avons vus les avantages de l'utilisation méthode du cycle en V, mais les lourds inconveignants qu'elle apporte n'en fait pas une méthode toujours efficace en gestion de projet. Les méthodes agiles, plus modernes, semblent en revanche éviter de nombreuses difficultés, ce qui en ferait aujourd'hui un excellent choix pour démarrer sur un nouveau projet.
 
-\section{Application}
+\section{Les normes}
 
-L'entreprise GFI comprend un \textit{Service Qualité}. Son but est de contrôler chaque livraison au quotidien afin de déterminer si les règles de qualité sont appliquées au sein de chaque projet. Par ailleurs elle met en place des plans et des processus à appliquer, de manière à harmoniser les différents projets GFI.
-
-Une norme qualité est souvent nécessaire pour répondre aux appels d'offre, la plus utilisée étant la CAGR 3.1.
-
-Ces méthodes et usages imposés varient en fonction du client. Dans le cas d'Airbus, elles varient même en fonction du service, car chacun a différentes exigences : un projet industriel, dont le code sera intégré à l'avion, mettra en application des processus assez lourds, avec une documentation importante, de nombreux tests et procédés de validation, tandis qu'un projet de recherche sera bien plus léger.
+Afin de bénéficier d'une bonne organisation entre les différentes équipes, ou entre le client et le fournisseur, il peut être intéressant de définir des normes de développement.
 
 Les méthodes et normes de développement sont souvent impactées par le cycle de vie du logiciel et l'incidence qu'entraînera une éventuelle anomalie.
 
@@ -192,9 +188,20 @@ Pour un grand nombre d'application, comme les logiciels bureautiques ou les jeux
 
 En revanche, l'aéronautique est un secteur assez particulier puisque d'une part une anomalie informatique peut avoir d'importantes conséquences (jusqu'au crash d'un avion), d'autre part le cycle de vie est très long : la conception elle-même de l'avion peut prendre de nombreuses années, et l'avion sera en service encore pendant plusieurs décennies.
 
+Il donc est nécessaire de communiquer avec les prochaines générations de développeurs qui vont maintenir le logiciel. Ainsi, dans certaines situations, la collaboration se fait également sur le plan temporel.
+
+\begin{app}
+
+L'entreprise GFI comprend un \textit{Service Qualité}. Son but est de contrôler chaque livraison au quotidien afin de déterminer si les règles de qualité sont appliquées au sein de chaque projet. Par ailleurs elle met en place des plans et des processus à appliquer, de manière à harmoniser les différents projets GFI.
+
+Une norme qualité est souvent nécessaire pour répondre aux appels d'offre, la plus utilisée étant la \textit{CAGR 3.1}.
+
+Ces normes imposées varient en fonction du client. Dans le cas d'Airbus, elles varient même en fonction du service, car chacun a différentes exigences : un projet industriel, dont le code sera intégré à l'avion, mettra en application des processus assez lourds, avec une documentation importante, de nombreux tests et procédés de validation, tandis qu'un projet de recherche sera bien plus léger.
+
 On note toutefois quelques exceptions car une \gls{ESN} doit s'adapter aux clients. Ainsi, si celui-ci n'impose aucune méthode ou norme à appliquer, elles sont décidées par GFI au cas par cas. Dans ce type de situation, le projet ne fait pas appel à un Service Qualité.
 
 Pour les équipes de recherche, qui ne se conforment pas à ces normes et dont les projets ne comportent pas de Service Qualité. En effet le code fournit par ces équipe a pour objectif de valider la conception et le fonctionnement d'un produit et obtenir un résultat au plus vite. Il ne sera pas intégré à l'application, mais sera repris par une autre équipe, qui développera la version industrielle en respectant les normes en vigueur.
+\end{app}
 
 \section{Conclusion}
 
@@ -204,8 +211,8 @@ On constate malgré tout que ce n'est pas parce qu'une méthode est en apparence
 Dans l'entreprise GFI, qui se veut innovante (son slogan est \textit{New challenges, new ideas}), la méthode du cycle en V est malgré tout utilisée dans la plupart des projets. Cette entreprise n'est pas jeune et au fil des années certaines habitudes de fonctionnement se sont instaurées, notamment sur les méthodes de travail. La raison principale pour laquelle GFI utilise la méthode du cycle en V est qu'elle est très accoutumée à celle-ci : elle en connaît les défaut et sait les prévoir, les contourner et les affronter. Les dangers que peut entraîner l'utilisation de cette méthode seront donc moins nombreux et auront de moins grandes conséquences.
 \end{app}
 
-D'autre part, changer une méthode qui fait partie des habitudes d'une équipe pourrait entraîner des oppositions et des conflits de la part des salariés. On peut ajouter à cela le temps de formation nécessaire à l'adoption d'une nouvelle méthode, qui est non négligeable à la fois sur le plan temporel et financier. La loi de Brooks étudiée précédemment peut ainsi s'appliquer en partie aux méthodes de travail : le temps et le prix de formation et d'adaptation pour instaurer une méthode plus moderne sont parfois supérieurs aux avantages que cette méthode aurait apporté.
+D'autre part, changer une méthode qui fait partie des habitudes d'une équipe pourrait entraîner des oppositions et des conflits de la part des salariés. On peut ajouter à cela le temps de formation nécessaire à l'adoption d'une nouvelle méthode, qui est non négligeable à la fois sur le plan temporel et financier. La loi de Brooks étudiée précédemment peut ainsi s'appliquer en partie aux méthodes de travail : le temps et le prix de formation et d'adaptation pour instaurer une méthode plus moderne peuvent être supérieurs aux avantages que cette méthode aurait apporté.
 
 En outre, certains pourrons donc se fier à l'idée qu'il ne sert à rien ne modifier une manière de fonctionner si celle-ci est déjà fonctionnelle et ne présente pas de problèmes particuliers.\\
 
-Nous avons vu les différentes méthodes de travail pouvant être adoptées pour la réalisation d'un projet informatique. Nous avons également vu comment le rapport avec le client et les préférences au sein de l'entreprise peuvent influencer le choix de ces méthodes.
+Nous avons vu les différentes méthodes de travail pouvant être adoptées pour la réalisation d'un projet informatique. Nous avons également vu comment le rapport avec le client et les préférences au sein de l'entreprise peuvent influencer le choix de ces méthodes. Nous allons donc maintenant voir les différents outils favorisant le travail collaboratif.
