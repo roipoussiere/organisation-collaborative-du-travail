@@ -75,9 +75,11 @@ Dès que plusieurs développeurs travaillent sur un même logiciel, le partage d
 \item Suite à la découverte d’une régression (apparition d’un bug qui n’existait pas précédemment), il est important de déterminer exactement quelle modification a entraîné ce bug afin de pouvoir le corriger au plus vite.
 \end{itemize}
 
-\fig{img/avant_vcs_light.png}{avant_vcs}{Représentation graphique des difficultés du développement logiciel.}
+\smallfig{img/avant_vcs_light.png}{avant_vcs}{Représentation graphique des difficultés du développement logiciel.}
 
 Les logiciels de gestion de version, ou \gls{VCS} permettent de répondre à ces problèmes. Parmi ces logiciels, les deux qui sont le plus couramment utilisés sont SVN et Git. Bien que leur fonctionnements internes soient fondamentalement différents, ils offrent des fonctionnalités similaires :
+
+\fig{img/apres_vcs_light.png}{apres_vcs}{Représentation graphique des solutions qu'apportent les logiciels de gestion de version.}
 
 \begin{itemize}
 \item regroupement d’un ensemble de modifications en unités atomiques (baptisées « révisions » par SVN et « commits » par Git) ;
@@ -87,8 +89,6 @@ Les logiciels de gestion de version, ou \gls{VCS} permettent de répondre à ces
 \item création de « branches », permettant d’isoler plusieurs versions divergentes (sur le schéma, la personne en rose crée un nouvelle branche de développement, afin de ne pas détériorer la version de production) - on note ici le lien entre les méthodes agiles qui demandent un produit fonctionnel à tout instant ;
 \item possibilité de retourner à n’importe quel état antérieur.
 \end{itemize}
-
-\fig{img/apres_vcs_light.png}{apres_vcs}{Représentation graphique des solutions qu'apportent les logiciels de gestion de version.}
 
 Ces fonctionnalités permettent de répondre aux problèmes formulés précédemment.
 
